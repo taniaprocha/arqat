@@ -1,0 +1,28 @@
+{
+  "projects":[
+    {
+     "tipo": "Loteamento Urbano",
+     "owner": "Privado",
+     "local": "MOITA - PORTUGAL",
+     "image": "img/portfolio/1.png"
+    },
+    {
+     "tipo": "Loteamento Urbano",
+     "owner": "Privado",
+     "local": "MOITA - PORTUGAL",
+     "image": "img/portfolio/1.png"
+    },
+    {
+     "tipo": "Loteamento Urbano",
+     "owner": "Privado",
+     "local": "MOITA - PORTUGAL",
+     "image": "img/portfolio/1.png"
+    },
+    {
+     "tipo": "Loteamento Urbano",
+     "owner": "Privado",
+     "local": "MOITA - PORTUGAL",
+     "image": "img/portfolio/1.png"
+    }
+  ]   
+}

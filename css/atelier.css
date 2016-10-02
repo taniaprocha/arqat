@@ -1,0 +1,19 @@
+.imagem{
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.texto{
+	padding-top: 40px;
+}
+
+.service-heading{
+	font-size: 16px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	font-family: Open Sans Light;
+	color: #808080 !important;
+	line-height: 20px;
+}

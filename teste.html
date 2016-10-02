@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Test</title>
+</head>
+<body>
+		<div class="teste"></div>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script >
+		$.getJSON('projects.json',function(data){
+			console.log(data);
+			$(data.projects).each(function(index,value){
+						console.log(value.title);
+						 $('.teste').append('<div>'+value.title+'</div>'
+						 			+'<div><img src="'+value.image+'" alt=""></div>'
+						 			+'<div>'+value.description+'</div>'
+
+
+						 	);
+				});
+		});
+
+		/*$.ajax({
+			url:'projects.json',
+			dataType: 'json',
+			type:'get',
+			cache: false,
+			success: function(data){
+				$(data.projects).each(function(index,value){
+						console.log(value.title);
+				});
+			}
+		});*/
+
+		/*$.ajax({
+			url:'projects.json',
+			dataType: 'json',
+			type:'get',
+			cache: false,
+			success: function(data){
+				$(data.projects).each(function(index,value){
+						console.log(value.title);
+						 $('.teste').append('<div>'+value.title+'</div>'
+						 			+'<div><img src="'+value.image+'" alt=""></div>'
+						 			+'<div>'+value.description+'</div>'
+
+
+						 	);
+				});
+			}
+		});*/
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "servicosgeral":[
+    {
+     "id": "1", 
+     "title": "Lorem ipsum"
+    },
+    {
+     "id": "1", 
+     "title": "Lorem ipsum"
+     
+    },
+    {
+     "id": "1", 
+     "title": "Lorem ipsum"
+    },
+    {
+     "id": "1", 
+     "title": "Lorem ipsum"
+    },
+    {
+     "id": "2", 
+     "title": "ipsum Lorem"
+    },
+    {
+     "id": "2", 
+     "title": "ipsum Lorem"
+    },
+    {
+     "id": "2", 
+     "title": "ipsum Lorem"
+    },
+    {
+     "id": "2", 
+     "title": "ipsum Lorem"
+    }
+    
+  ]   
+}

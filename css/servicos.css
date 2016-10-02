@@ -1,0 +1,30 @@
+.imagem{
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.list-unstyled.love li, 
+.list-unstyled.no-love li {
+  background: url('http://d26mw3lpqa99qj.cloudfront.net/prod-fool/sell/yes-15d4ba569f9f4beb7d8cfd8adc8ed886.png') no-repeat;
+  padding:0 0 5% 45px;
+}
+
+/* ======= change the no-love image ========== */
+.list-unstyled.no-love li {
+  background: url('http://d26mw3lpqa99qj.cloudfront.net/prod-fool/sell/yes-15d4ba569f9f4beb7d8cfd8adc8ed886.png') no-repeat;
+}
+
+.fa-arrow-right{
+	color:#ff1a1a;
+	font-size: 20px !important;
+}
+
+.serv{
+	padding-top: 30px;
+}
+
+.ba{
+
+	padding-top: 20px
+}

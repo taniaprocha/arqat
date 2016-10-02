@@ -1,0 +1,25 @@
+{
+  "noticias":[
+    {
+     "title": "Lorem ipsum",
+     "desc": "Material reaproveitado cria padrões distintos de ladrilhos de feltro que fornecem controle de som",
+     "image": "img/1.png"
+    },
+    {
+     "title": "Lorem ipsum",
+     "desc": "Instalação de Yayoi Kusama na Casa de Vidro de Philip Johnson",
+     "image": "img/bola.jpg"
+    },
+    {
+     "title": "Lorem ipsum",
+     "desc": "Material reaproveitado cria padrões distintos de ladrilhos de feltro que fornecem controle de som",
+     "image": "img/1.png"
+    },
+    {
+     "title": "Lorem ipsum",
+     "desc": "Instalação de Yayoi Kusama na Casa de Vidro de Philip Johnson",
+     "image": "img/1.png"
+    }
+    
+  ]   
+}
