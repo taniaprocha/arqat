@@ -43,7 +43,11 @@ $(document).ready(function(){
 
             var projeto = projectsData[id]; 
 
+            $("#namep").text(projeto.tipo);
             $("#image1").attr('src',projeto.image);
+            $("#image2").attr('src',projeto.image1);
+            $("#image3").attr('src',projeto.image2);
+            $("#image4").attr('src',projeto.image3);
  
 
         }
@@ -135,6 +139,8 @@ $(document).ready(function(){
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
         });
+
+  
 
 
 
