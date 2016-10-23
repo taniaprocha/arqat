@@ -90,8 +90,8 @@
 	visibility: hidden; 
 	position: relative; 
 	margin: 0 auto; 
-	width: 1140px; 
-	height: 442px; 
+	width: 700px !important; 
+	height: 442px !important;
 	overflow: hidden;
 }
 
@@ -125,10 +125,21 @@
 	position: absolute; 
 	left: 0px; 
 	top: 0px; 
-	width: 1140px; 
-	height: 442px;
+	width: 700px !important; 
+	height: 442px !important;
     overflow: hidden;
 }
 
 #a{display: none;}
 
+#close{
+	font-size: 40px;
+}
+
+.portfolio-modal .modal-content{
+	padding-top: 50px !important;
+}
+
+#row{
+	padding-top: 20px;
+}
