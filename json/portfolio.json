@@ -1,28 +1,28 @@
 {
   "portfolio":[
     {
-     "title": "Lorem ipsum",
+     "title": "Lorem ipsum 1",
      "image": "img/portfolio/hotel.jpg"
     },
     {
-     "title": "Lorem ipsum",
+     "title": "Lorem ipsum 2",
+     "image": "img/portfolio/predio.jpg"
+    },
+    {
+     "title": "Lorem ipsum 3",
      "image": "img/portfolio/hotel.jpg"
     },
     {
-     "title": "Lorem ipsum",
+     "title": "Lorem ipsum 4",
      "image": "img/portfolio/hotel.jpg"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Lorem ipsum 5",
+     "image": "img/portfolio/praia.jpg"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Lorem ipsum 6",
+     "image": "img/portfolio/predio.jpg"
     }
     
   ]   

@@ -44,6 +44,9 @@ $(document).ready(function(){
             var projeto = projectsData[id]; 
 
             $("#namep").text(projeto.tipo);
+            //$("#tipo").text(projeto.tipo);
+            //$("#owner").text(projeto.owner);
+           // $("#local").text(projeto.local);
             $("#image1").attr('src',projeto.image);
             $("#image2").attr('src',projeto.image1);
             $("#image3").attr('src',projeto.image2);

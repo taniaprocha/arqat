@@ -1,77 +1,67 @@
 {
   "portfolioglobal":[
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Modern take on Tradicional Architecture",
+     "image": "img/portfolio/praia.jpg",
+     "description": "Estudo de Habitação Unifamiliar em Seixas, Caminha",
+     "category": "arquitectura",
+     "date": "2016/2017"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Habitação Avioso",
+     "image": "img/portfolio/hotel.jpg",
+     "description": "Projecto de Habitação Unifamiliar em Santa Maria do Avioso, Porto",
+     "category": "arquitectura",
+     "date": "2016"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Habitação Tradicional Perfil T",
+     "image": "img/portfolio/hotel.jpg",
+     "description": "3D e Renderização de Habitação Unifamiliar para o Gabinete Perfil T",
+     "category": "arquitectura",
+     "date": "2016"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Micro casa em Altura",
+     "image": "img/portfolio/hotel.jpg",
+     "description": "Estudo de Habitação Unifamiliar de pequenas dimensões",
+     "category": "arquitectura",
+     "date": "2016"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Sala apto Porto",
+     "image": "img/portfolio/predio.jpg",
+     "description": "Reabilitação e Design de interiores em Sala de apartamento no Porto",
+     "category": "design",
+     "date": "2016"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Renovação Total de Apartamento",
+     "image": "img/portfolio/predio.jpg",
+     "description": "Reabilitação e Design de interiores em Apartamento em Caminha",
+     "category": "design",
+     "date": "2016"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Sala de Micro casa",
+     "image": "img/portfolio/predio.jpg",
+     "description": "Estudo - Design de interiores em Micro casa",
+     "category": "design",
+     "date": "2015"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Reabilitação de Frente Ribeirinha de Seixas",
+     "image": "img/portfolio/hotel.jpg",
+     "description": "Plano pormenor para reabilitação de Frente Ribeirinha de Seixas, Caminha",
+     "category": "urbanismo",
+     "date": "2011"
     },
     {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
-    },
-    {
-     "title": "Lorem ipsum",
-     "image": "img/portfolio/hotel.jpg"
+     "title": "Reabilitação da Praça da Feira de Tui",
+     "image": "img/portfolio/predio.jpg",
+     "description": "Estudo para reabilitação de Praça da Feira de tui, Galiza, Espanha",
+     "category": "urbanismo",
+     "date": "2010"
     }
-    
   ]   
 }

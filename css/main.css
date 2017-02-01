@@ -492,96 +492,6 @@ body
 {
 	outline:0
 }
-.portfolio-modal .modal-content
-{
-	border-radius:0;
-	background-clip:border-box;
-	-webkit-box-shadow:none;
-	box-shadow:none;
-	border:0;
-	min-height:100%;
-	padding:100px 0;
-	text-align:center
-}
-.portfolio-modal .modal-content h2
-{
-	margin-bottom:15px;
-	font-size:3em
-}
-.portfolio-modal .modal-content p
-{
-	margin-bottom:30px
-}
-.portfolio-modal .modal-content p.item-intro
-{
-	margin:20px 0 30px;
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-style:italic;
-	font-size:16px
-}
-.portfolio-modal .modal-content ul.list-inline
-{
-	margin-bottom:30px;
-	margin-top:0
-}
-.portfolio-modal .modal-content img
-{
-	margin-bottom:30px
-}
-.portfolio-modal .close-modal
-{
-	position:absolute;
-	width:75px;
-	height:75px;
-	background-color:transparent;
-	top:25px;
-	right:25px;
-	cursor:pointer
-}
-.portfolio-modal .close-modal:hover
-{
-	opacity:.3
-}
-.portfolio-modal .close-modal .lr
-{
-	height:75px;
-	width:1px;
-	margin-left:35px;
-	background-color:#222;
-	transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	z-index:1051
-}
-.portfolio-modal .close-modal .lr .rl
-{
-	height:75px;
-	width:1px;
-	background-color:#222;
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-	z-index:1052
-}
-.portfolio-modal .modal-backdrop
-{
-	opacity:0;
-	display:none
-}
-
-	img::selection
-{
-	background:0 0
-}
-	img::-moz-selection
-{
-	background:0 0
-}
-	body
-{
-	webkit-tap-highlight-color:#fed136
-}
-
 
 
 .skills-text-muted {
@@ -604,3 +514,64 @@ body
 #contact a{
 color: #333
 }
+
+    header
+    {
+    background-image:url(img/header2.jpg);
+    color:#fff;
+    padding: 200px 0;
+    }
+
+    #skills{
+   
+    color: #fff;
+    }
+
+    .bg-light-gray{  
+    background-color:#efebe1
+    }
+
+    #map{
+    height: 530px;
+    width: 100%;
+    background: #F1F1F1;
+    }
+
+    footer
+    {
+    padding:25px 0;
+    text-align:center;
+    background-color: #333333;
+    color: #fff;
+    }
+
+    .fa-home:before {
+    color: black !important;
+    }
+
+    .fa-building:before {
+    color: black !important;
+    }
+    .fa-users:before {
+    color: black !important;
+    }
+    .fa-laptop:before {
+    color: black !important;
+    }
+    .fa-stack-2x{
+        color: #808080;
+        opacity: 0.3;
+    }
+    .service-heading{
+        color: black;
+    }
+
+    section h2.section-heading{
+         color: black;
+         text-align: left;
+    }
+
+    .fa-stack{
+        height: 4em !important;
+        width: 4.5em !important;
+     }

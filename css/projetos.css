@@ -90,8 +90,8 @@
 	visibility: hidden; 
 	position: relative; 
 	margin: 0 auto; 
-	width: 700px !important; 
-	height: 442px !important;
+	width: 540px !important; 
+	height: 400px !important;
 	overflow: hidden;
 }
 
@@ -125,8 +125,8 @@
 	position: absolute; 
 	left: 0px; 
 	top: 0px; 
-	width: 700px !important; 
-	height: 442px !important;
+	width: 540px !important; 
+	height: 400px !important;
     overflow: hidden;
 }
 
@@ -141,5 +141,11 @@
 }
 
 #row{
-	padding-top: 20px;
+	padding-top: 30px;
+}
+
+#tit{
+	color: #ed4343;
+	font-weight: bold;
+	font-size: 25px;
 }

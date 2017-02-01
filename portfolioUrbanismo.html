@@ -10,10 +10,8 @@
 	<meta name="keywords" content="jcgm,ecgm,viana,estg,ipvc" />
 <!-- CSS =========================================================================== -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="css/projetos.css" rel="stylesheet" type="text/css">
-    <!-- JS =========================================================================== -->
-
 <!-- FONTS =========================================================================== -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -24,11 +22,8 @@
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-
-</style>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
 </head>
-
 
 <body  id="page-top">
 <!-- NAVBAR =========================================================================== -->
@@ -56,9 +51,9 @@
                     <li>
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJECTOS</a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolio.html">Arquitectura</a></li>
-                            <li><a href="portfolio.html">Design</a></li>
-                            <li><a href="portfolio.html">Urbanismo</a></li>
+                            <li><a href="portfolioArquitectura.html">Arquitectura</a></li>
+                            <li><a href="portfolioDesign.html">Design</a></li>
+                            <li><a href="portfolioUrbanismo.html">Urbanismo</a></li>
                         </ul>
                     </li>
                     <li>
@@ -77,25 +72,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projetos</h2>
+                    <h2 class="section-heading">Urbanismo</h2>
                     <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
                    <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
                 </div>
             </div>
-            <div class="row" >
-                <img src="img/a/arch.jpg" class="img-responsive imagem" alt="" >
-
-
-            </div>
-
             <div class="row">
                 
                 <div class="porto">
                     
                 </div>
             </div>
-
-            
         </div>
     </section>
 
@@ -156,89 +143,25 @@
 
         </footer>
 <!-- MODAIS =========================================================================== -->
-<div class="portfolio-modal modal fade modale" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" id="close" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove-circle" id="close" style="font-size: 40px"></span>
-        </div>
-    <div class="container">
-        <div class="row">
-                <div class="modal-body">
-                    <h2 id="namep">NOME PROJECTO</h2>
-                       <!-- <p class="item-intro text-muted">Jornadas da computacao grafica e multimedia</p>-->
-
-                    <div id="row">
-                        <div class="col-md-6">
-                            <div id="slider1_container" >
-
-                                <!-- Loading Screen -->
-                                <div u="loading" id="u">
-                                    <div id="style1">
-                                        </div>
-                                    <div id="style2">
-                                        </div>
-                                </div>
-
-                                <!-- Slides Container -->
-                                <div u="slides" id="style3" style="">
-                                    <div>
-                                        <img u="image" id="image1" src="img/portfolio/1.png" " />
-                                    </div>
-                                    <div>
-                                        <img u="image" id="image2" src="img/portfolio/2.png" />
-                                    </div>
-                                    <div>
-                                        <img u="image" id="image3" src="img/portfolio/3.png" />
-                                    </div>
-                                    <div>
-                                        <img u="image" id="image4" src="img/portfolio/4.png" />
-                                    </div>
-                                </div>
-                                
-                               
-                                <!-- bullet navigator container -->
-                                <div u="navigator" class="jssorb05" >
-                                    <!-- bullet navigator item prototype -->
-                                    <div u="prototype"></div>
-                                </div>
-                                <!--#endregion Bullet Navigator Skin End -->
-                                
-                                <!--#region Arrow Navigator Skin Begin -->
-                                <!-- Help: http://www.jssor.com/tutorial/set-arrow-navigator.html -->
-                                <!-- Arrow Left -->
-                                <span u="arrowleft" class="jssora11l">
-                                </span>
-                                <!-- Arrow Right -->
-                                <span u="arrowright" class="jssora11r">
-                                </span>
-                                <!--#endregion Arrow Navigator Skin End -->
-                                <a id="a" href="http://www.jssor.com">Bootstrap Carousel</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <li id="tit" class="list-group-item">Tipo de Projeto</li>
-                                    <li id="tipo" class="list-group-item">Loteamento</li>
-                                </li>
-                                <li class="list-group-item">
-                                    <li id="tit" class="list-group-item">Proprietário</li>
-                                    <li id="owner" class="list-group-item">Arnaldo</li>
-                                </li>
-                                <li class="list-group-item">
-                                    <li id ="tit" class="list-group-item">Local</li>
-                                    <li id="local" class="list-group-item"> Ponte de Lima</li>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="container">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left">
+                    <img id='project-img' class="img-responsive img-centered" src="img/portfolio/1.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right">
+                    <h2 id='project-name'></h2>                        
+                    <p id='project-description'></p>
+                    <ul class="list-inline">
+                        <li><strong>Data:</strong><span id='project-data'></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    
- 
 </body>
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
@@ -246,11 +169,46 @@
  <script src="js/jQuery_Easing.js"></script>
  <script src="js/main.js"></script>
  <script src="js/jquery-3.1.0.min.js"></script>
- <script src="js/projetos.js"></script>
-<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 
-
-
+<script>
+    var projects=[];
+    var cont = 0;
+    $.getJSON('json/portfolioglobal.json',function(data){
+        projects = [];
+        $(data.portfolioglobal).each(function(index, value){
+            if(value.category === 'urbanismo'){
+                projects.push(value);
+                $('#project-name').text(value.title);
+                $('#project-img').attr('src', value.image)
+                $('.porto').append('<div class="col-md-4 col-sm-6 portfolio-item" id="item-'+index+'">'
+                    +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
+                        +'<div class="portfolio-hover">'
+                            +'<div class="portfolio-hover-content">'
+                                +'<i class="fa fa-plus fa-3x"></i>'
+                            +'</div>'
+                        +'</div>'
+                        +'<img src="'+value.image+'" class="img-responsive" alt="">'
+                    +'</a>'
+                    +'<div class="portfolio-caption">'
+                        +'<h4>'+value.title+'</h4>'  
+                    +'</div>'
+                +'</div>');
+                cont++;
+            }
+        });
+        console.log(projects);
+    });
+    
+    function openModal(index){
+        console.log(projects.length);
+        console.log('open modal ', index, projects[index]);
+        $('#project-name').text(projects[index].title);
+        $('#project-img').attr('src', projects[index].image);
+        $('#project-description').text(projects[index].description);
+        $('#project-data').text(projects[index].date);
+    }
+</script>
 
  <script>
     
