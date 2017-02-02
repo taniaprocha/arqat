@@ -1,7 +1,7 @@
 .imagem{
 	margin: 0 auto;
 	width: 100%;
-
+	height: 250px;
 }
 
 .list-unstyled.love li, 
@@ -27,4 +27,9 @@
 .ba{
 
 	padding-top: 20px
+}
+
+.row .serv{
+	width: 90%;
+	margin: 0 auto;
 }

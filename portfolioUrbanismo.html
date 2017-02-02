@@ -197,12 +197,9 @@
                 cont++;
             }
         });
-        console.log(projects);
     });
     
     function openModal(index){
-        console.log(projects.length);
-        console.log('open modal ', index, projects[index]);
         $('#project-name').text(projects[index].title);
         $('#project-img').attr('src', projects[index].image);
         $('#project-description').text(projects[index].description);

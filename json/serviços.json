@@ -1,25 +1,19 @@
 {
   "serviços":[
     {
-     "title": "Lorem ipsum",
-     "desc": "NLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus neque sed dui consequat, eu suscipit ipsum porta. Vestibulum vel. ",
+     "title": "Serviços",
+     "desc": "",
      "logo": "home"
     },
     {
-     "title": "Lorem ipsum",
-     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus neque sed dui consequat, eu suscipit ipsum porta. Vestibulum vel. ",
+     "title": "Design",
+     "desc": "",
      "logo": "building"
     },
     {
-     "title": "Lorem ipsum",
-     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus neque sed dui consequat, eu suscipit ipsum porta. Vestibulum vel. ",
+     "title": "Construção",
+     "desc": "",
      "logo": "users"
-    },
-    {
-     "title": "Lorem ipsum",
-     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus neque sed dui consequat, eu suscipit ipsum porta. Vestibulum vel. ",
-     "logo": "laptop"
-    }
-    
+    } 
   ]   
 }

@@ -1,8 +1,8 @@
-.imagem{
+/*.imagem{
 	margin: 0 auto;
 	width: 100%;
 
-}
+}*/
 
 .texto{
 	padding-top: 40px;
@@ -73,11 +73,6 @@ section h2.section-heading{
      color: black;
      text-align: left;
 }
-
-.fa-stack{
-    height: 4em !important;
-    width: 4.5em !important;
- }
 
  #portfolio{
     padding-top: 100px !important;

@@ -171,7 +171,7 @@
  <script src="js/jquery-3.1.0.min.js"></script>
  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 
-<script>
+    <script>
     var projects=[];
     var cont = 0;
     $.getJSON('json/portfolioglobal.json',function(data){
@@ -197,34 +197,27 @@
                 cont++;
             }
         });
-        console.log(projects);
+        //console.log(projects);
     });
     
     function openModal(index){
-        console.log(projects.length);
-        console.log('open modal ', index, projects[index]);
         $('#project-name').text(projects[index].title);
         $('#project-img').attr('src', projects[index].image);
         $('#project-description').text(projects[index].description);
         $('#project-data').text(projects[index].date);
     }
 
-</script>
+    </script>
 
- <script>
-    
-
-	// jQuery for page scrolling feature - requires jQuery Easing plugin
-
-	$(function() {
-	    $('a.page-scroll').bind('click', function(event) {
-	        var $anchor = $(this);
-	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
-	        }, 1500, 'easeInOutExpo');
-	        event.preventDefault();
-	    });
-	});
-
+    <script>
+    	$(function() {
+    	    $('a.page-scroll').bind('click', function(event) {
+    	        var $anchor = $(this);
+    	        $('html, body').stop().animate({
+    	            scrollTop: $($anchor.attr('href')).offset().top
+    	        }, 1500, 'easeInOutExpo');
+    	        event.preventDefault();
+    	    });
+    	});
     </script>
 </html>
