@@ -13,13 +13,12 @@
 	text-decoration: none;
 	letter-spacing: 0.5px;
 	font-weight: normal;
-	font-family: 'Open Sans Light';
+	font-family: 'Roboto', sans-serif;
 	color: #808080 !important;
 	line-height: 20px;
 }
  header
 {
-	background-image:url(img/header2.jpg);
 	color:#fff;
 	padding: 200px 0;
 }
@@ -37,14 +36,6 @@ background-color:#efebe1
 height: 530px;
 width: 100%;
 background: #F1F1F1;
-}
-
-footer
-{
-	padding:25px 0;
-	text-align:center;
-	background-color: #333333;
-	color: #fff;
 }
 
 .fa-home:before {
@@ -73,11 +64,6 @@ section h2.section-heading{
      color: black;
      text-align: left;
 }
-
- #portfolio{
-    padding-top: 100px !important;
-
- }
 
 body{
 	font-family: 'Roboto', sans-serif;

@@ -1,17 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
-}
 
 h1 {
   text-align: center;

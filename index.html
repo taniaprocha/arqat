@@ -5,23 +5,24 @@
 <!-- META TAGS =========================================================================== -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Projeto</title>
-	<meta name="author" content="JCGM - ECGM" />
-	<meta name="description" content="Workshop de Html 5 para as Jornadas de 2016." />
-	<meta name="keywords" content="jcgm,ecgm,viana,estg,ipvc" />
+	<meta name="author" content="" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- CSS =========================================================================== -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 <!-- FONTS =========================================================================== -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
     
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Custom CSS -->
+    <link href="css/half-slider.css" rel="stylesheet">
 </style>
 </head>
 
@@ -35,7 +36,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">André Terleira</a>
+                <a class="navbar-brand page-scroll"  href="index.html">
+                    <img class="img-responsive logotipo-header" src="./img/Banner_3.png"></img>
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav navbar-right">
@@ -65,15 +68,40 @@
     </nav>
 
 <!-- HEADER =========================================================================== -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <!--<div class="intro-lead-in">Bem vindos!</div>-->
-           <div class="intro-heading">Bem Vindos...</div>
-            <a href="#skills" class="page-scroll btn btn-xl">Continuar</a>
+    <header class="main-header">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style="background-image: url('./img/Alvar-Alto-Night-02.jpg');"></div>
+                </div>
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image: url('./img/Edificio-Final.jpg');"></div>
+                </div>
+                <div class="item">
+                    <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill" style="background-image: url('./img/View-01-02.png');"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
         </div>
-    </div>
-</header>
+    </header>
 
 <!-- SERVICOS =========================================================================== -->
 <section id="skills">
@@ -97,7 +125,6 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Projectos</h2>
                 <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
-               <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
             </div>
         </div>
         <div class="row">
@@ -106,92 +133,29 @@
     </div>
 </section>
 
-     <!-- SERVICOS =========================================================================== -->
-<!--<section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Noticias</h2>
-                    <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
-                </div>
-            </div>
-            <div class="row text-center span ">
-                <div class="teste"></div>
-            </div>
-        </div>
-    </section>-->
-
 <!-- FOOTER =========================================================================== -->
-   <footer class="footer-distributed">
-        <div class="footer-left">
-            <h3>Positive<span>Architecture</span></h3>
-
-            <p class="footer-links">
-                <a href="#">Apresentação</a>
-                ·
-                <a href="#">Serviços</a>
-                ·
-                <a href="#">Projectos</a>
-                ·
-                <a href="#">Contactos</a>
-            </p>
-
-            <p class="footer-company-name">Positive Architecture &copy; 2016</p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Rua Camilo Castelo Branco</span> 4465 - 768 Leça do Bálio</p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+351 963081372</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">arq.andreterleira@sapo.pt</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>About the company</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-            </p>
-
-            <div class="footer-icons">
-                <a href="https://www.facebook.com/andre.terleira/" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/ArqATerleira" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/arqandreterleira" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+   <footer class="footer">
+        <div>ANDRÉ TERLEIRA © 2017 | ARQUITETURA E CONSTRUÇÃO</div>
     </footer>
 </body>
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
+ <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"</script>-->
  <script src="js/bootstrap.min.js"></script>
  <script src="js/jQuery_Easing.js"></script>
  <script src="js/main.js"></script>
- <script src="js/jquery-3.1.0.min.js"></script>
- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+ 
 
 <script>
         $.getJSON('json/noticias.json',function(data){
-           // console.log(data);
             $(data.noticias).each(function(index,value){
-                        //console.log(value.desc);
-                         $('.teste').append( '<div class="col-md-3 " >'
-                                                +'<span class="fa-stack fa-4x">'
-                                                +'<img src="'+value.image+'" class="img-responsive" alt=""></span>'
-                                                +'<h4 class="service-heading">'+value.title+'</h4>'
-                                                +'<h7 class="service-heading">'+value.desc+'</h7>'
-                                                +'</div>'
-
-
-                            );
-               
-                         
-                });
+                $('.teste').append( '<div class="col-md-3 " >'
+                    +'<span class="fa-stack fa-4x">'
+                    +'<img src="'+value.image+'" class="img-responsive" alt=""></span>'
+                    +'<h4 class="service-heading">'+value.title+'</h4>'
+                    +'<h7 class="service-heading">'+value.desc+'</h7>'
+                    +'</div>');
+            });
         });
 
         $.getJSON('json/portfolioglobal.json',function(data){
@@ -205,9 +169,18 @@
             console.log(numbers);
             
             numbers.map(function(number){
+                var category = data.portfolioglobal[number].category;
+                var href = '';
+                if(category === 'arquitectura'){
+                    href = 'portfolioArquitectura.html';
+                }else if(category === 'design'){
+                    href = 'portfolioDesign.html';    
+                }else{
+                    href = 'portfolioUrbanismo.html';
+                }
                 console.log(data.portfolioglobal[number]);
                 $('#teste1').append('<div class="col-md-4 col-sm-6 portfolio-item">'
-                    +'<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">'
+                    +'<a href="./' + href + '" class="portfolio-link" data-toggle="modal">'
                     +'<div class="portfolio-hover">'
                     +'<div class="portfolio-hover-content">'
                     +'<i class="fa fa-plus fa-3x"></i>'
@@ -221,29 +194,13 @@
                     +'</div>'
                 ); 
             });
-            /*$(data.portfolioglobal).each(function(index, value){
-                $('#teste1').append( '<div class="col-md-4 col-sm-6 portfolio-item">'
-                    +'<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">'
-                    +'<div class="portfolio-hover">'
-                    +'<div class="portfolio-hover-content">'
-                    +'<i class="fa fa-plus fa-3x"></i>'
-                    +'</div>'
-                    +'</div>'
-                    +'<img src="'+value.image+'" class="img-responsive" alt="">'
-                    +'</a>'
-                    +'<div class="portfolio-caption">'
-                    +'<h4>'+value.title+'</h4>'  
-                    +'</div>'
-                    +'</div>'
-                );                    
-            });*/
         });
 
         $.getJSON('json/servicos.json',function(data){
            console.log(data);
            $(data.serviços).each(function(index,value){
                 console.log(value.title);
-                $('.teste2').append('<div class="col-md-3">'
+                $('.teste2').append('<div class="col-md-4">'
                     +'<span class="fa-stack fa-4x">'
                     +'<i class="fa fa-circle fa-stack-2x text-primary"></i>'
                     +'<i class="fa fa-'+value.logo+'" aria-hidden="true"></i>'
@@ -254,17 +211,9 @@
             });
         });
 </script>
-
- <script>
-	// jQuery for page scrolling feature - requires jQuery Easing plugin
-	$(function() {
-	    $('a.page-scroll').bind('click', function(event) {
-	        var $anchor = $(this);
-	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
-	        }, 1500, 'easeInOutExpo');
-	        event.preventDefault();
-	    });
-	});
+<script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
 </script>
 </html>
