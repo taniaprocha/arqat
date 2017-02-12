@@ -35,6 +35,11 @@ header
     color: #808080;
     opacity: 0.3;
 }
+
+.fa-plus.fa-3x{
+    font-size: 35px;
+}
+
 .service-heading{
     color: black;
 }

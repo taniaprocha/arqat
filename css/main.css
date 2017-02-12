@@ -449,19 +449,14 @@ width: 100%;
 background: #F1F1F1;
 }
 
-.fa-home:before {
-color: black !important;
+.fa-home,
+.fa-building,
+.fa-users,
+.fa-laptop,
+.fa-pencil{
+	color: black;
 }
 
-.fa-building:before {
-color: black !important;
-}
-.fa-users:before {
-color: black !important;
-}
-.fa-laptop:before {
-color: black !important;
-}
 .fa-stack-2x{
     color: #808080;
     opacity: 0.3;
@@ -485,7 +480,7 @@ section h2.section-heading{
  }
 
  #myCarousel .carousel-inner{
- 	height: 400px;
+ 	height: 450px;
  }
 
  .main-header{

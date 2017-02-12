@@ -18,7 +18,7 @@
 <!-- FOOTER ==========================================================================-->
     
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- Custom CSS -->
@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll"  href="index.html">
-                    <img class="img-responsive logotipo-header" src="./img/Banner_3.png"></img>
+                    <img class="img-responsive logotipo-header" src="./img/Logotipo2.png"></img>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="menu">
@@ -75,21 +75,30 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
 
             <!-- Wrapper for Slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <!-- Set the first background image using inline CSS below. -->
-                    <div class="fill" style="background-image: url('./img/Alvar-Alto-Night-02.jpg');"></div>
+                    <div class="fill" style="background-image: url('./img/1.Apresentacao.jpg');"></div>
                 </div>
                 <div class="item">
-                    <!-- Set the second background image using inline CSS below. -->
-                    <div class="fill" style="background-image: url('./img/Edificio-Final.jpg');"></div>
+                    <div class="fill" style="background-image: url('./img/2.Servicos.jpg');"></div>
                 </div>
                 <div class="item">
-                    <!-- Set the third background image using inline CSS below. -->
-                    <div class="fill" style="background-image: url('./img/View-01-02.png');"></div>
+                    <div class="fill" style="background-image: url('./img/3.Slide5.jpg');"></div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image: url('./img/3.Slide1.jpg');"></div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image: url('./img/3.Slide3.jpg');"></div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image: url('./img/3.Slide4.jpg');"></div>
                 </div>
             </div>
 
@@ -199,7 +208,7 @@
         $.getJSON('json/servicos.json',function(data){
            console.log(data);
            $(data.serviços).each(function(index,value){
-                console.log(value.title);
+                console.log(value.logo);
                 $('.teste2').append('<div class="col-md-4">'
                     +'<span class="fa-stack fa-4x">'
                     +'<i class="fa fa-circle fa-stack-2x text-primary"></i>'

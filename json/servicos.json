@@ -1,19 +1,19 @@
 {
   "serviços":[
     {
-     "title": "Serviços",
+     "title": "Arquitectura",
      "desc": "",
      "logo": "home"
     },
     {
      "title": "Design",
      "desc": "",
-     "logo": "building"
+     "logo": "pencil"
     },
     {
      "title": "Construção",
      "desc": "",
-     "logo": "users"
+     "logo": "building"
     } 
   ]   
 }

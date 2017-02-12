@@ -126,8 +126,8 @@ section#contact .text-danger
 #contact .panel-container,
 #contact .map-container{
     display: inline-block;
-    height: 500px;
-    width: 370px;
+    height: 400px;
+    width: 420px;
     vertical-align: top;
     border: 1px solid #ccc;
 }
@@ -139,8 +139,8 @@ section#contact .text-danger
 }
 
 #contact .panel-container .title{
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 28px;
 }
 
 #contact .panel-container .panel-body{

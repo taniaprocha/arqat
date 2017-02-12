@@ -88,3 +88,10 @@ header
 .row .serv .block{
   margin-bottom: 20px;
 }
+
+#portfolio .services-image{
+    background-image: url(../img/2.Servicos.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: -49px -272px;
+}

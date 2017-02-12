@@ -70,25 +70,44 @@ body{
 	font-weight: 300;
 }
 
- #portfolio .title{
+#portfolio{
+	font-family: 'Roboto', sans-serif;
+}
+
+#portfolio .title{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 28px;
 	padding-left: 10px;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
- #portfolio .description{
+#portfolio .description{
 	font-size: 14px;
 	padding-left: 10px;
+	width: 95%;
 }
 
- #portfolio .points{
- 	padding-top: 20px;
- 	padding-left: 10px;
- 	font-size: 15px;
- }
+#portfolio .points{
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 15px;
+	margin-bottom: 40px;
+	width: 95%;
+}
 
-  #portfolio .point{
-  	padding-left: 10px;
-  	padding-top: 5px;
-  }
+#portfolio .point{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#portfolio .point i{
+	color: #ed4343;
+	margin-right: 10px; 
+}
+
+#portfolio .presentation{
+	height: 130px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
