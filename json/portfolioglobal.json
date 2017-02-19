@@ -1,25 +1,20 @@
 {
   "portfolioglobal":[
     {
-     "title": "Modern take on Tradicional Architecture",
-     "image": "img/portfolio/praia.jpg",
-     "description": "Estudo de Habitação Unifamiliar em Seixas, Caminha",
+     "title": "Projecto 11x11",
+     "image": "img/project1/3DView20.jpg",
+     "description": "Projecto de Moradia Unifamiliar Distribuida em dois pisos (Cave+Rés-do-chão). A distibuição dos espaços interiores caracteriza-se pela diferenciação dos compartimentos socias e privados.Na frente da casa encontram-se as áreas sociais: salas e cozinha em conceito de \"openspace\" e na parte posterior as áreas de quartos e Instalações sanitárias. Na cave situa-se a Garagem e arrumos com acesso directo ao piso superior por meio de um vão de escadas situadas no centro do projecto que contém uma clarabóia para iluminação natural.",
      "category": "arquitectura",
-     "date": "2016/2017"
+     "date": "Janeiro 2017",
+     "images": ["img/project1/3DView20.jpg"]
     },
     {
-     "title": "Habitação Avioso",
-     "image": "img/portfolio/hotel.jpg",
-     "description": "Projecto de Habitação Unifamiliar em Santa Maria do Avioso, Porto",
+     "title": "Avioso Graffiti House",
+     "image": "img/project2/3DView2.jpg",
+     "description": "Projecto de Moradia Unifamiliar geminada de tipologia T3 distribuida em dois pisos (Rés-do-chão+Piso 1). A distibuição dos espaços interiores caracteriza-se pela divisão por pisos dos compartimentos socias e privados. No Rés-do-chão da moradia encontram-se as áreas sociais: hall de entrada, salas e cozinha em conceito de \"openspace\" e uma pequena instalação sanitária de serviço na parte inferior das escadas, No piso superior situam-se as áreas privadas: quartos, Suite com Is e \"walk in closet\" e Instalação sanitária comum; este piso tem maior dimensão que o piso inferior proporcionando sombreamento ás areas sociais assim como áreas exteriore cobertas. Na parte posterior do terreno situa-se um anexo com garagem e uma pequena lavandaria. Esta Habitação caracteriza-se por um graffiti de grandes dimensões na fachada do edificio assim como um revestimento em madeira nas áreas cobertas do Rés do chão.",
      "category": "arquitectura",
-     "date": "2016"
-    },
-    {
-     "title": "Habitação Tradicional Perfil T",
-     "image": "img/portfolio/hotel.jpg",
-     "description": "3D e Renderização de Habitação Unifamiliar para o Gabinete Perfil T",
-     "category": "arquitectura",
-     "date": "2016"
+     "date": "Janeiro 2017",
+     "location": "Santa Maria do Avioso - Maia - Porto"
     },
     {
      "title": "Micro casa em Altura",
