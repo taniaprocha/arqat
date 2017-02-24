@@ -142,3 +142,15 @@ section h2.section-heading{
 .portfolio-modal .project-item{
     margin-bottom: 10px;
 }
+
+.arquitectura .sub-title{
+    width: 100%;
+    float: none;
+    padding: 20px 0;
+}
+
+.arquitectura .arquitectura-sub,
+.arquitectura .design-sub{
+    display: inline-block;
+    text-align: left;
+}

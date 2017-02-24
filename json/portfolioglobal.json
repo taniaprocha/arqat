@@ -1,27 +1,193 @@
 {
   "portfolioglobal":[
     {
+     "title": "Stand Titaniumfix",
+     "image": "img/Arquitectura/Comercial/1/1.Vista3D.jpg",
+     "description": "Projecto de Stand comercial Titaniumfix para feira de dentária da Exponor.",
+     "category": "arquitectura",
+     "date": "Setembro 2016",
+     "images": [
+        "img/Arquitectura/Comercial/1/1.Vista3D.jpg",
+        "img/Arquitectura/Comercial/1/2.Vista3D.jpg",
+        "img/Arquitectura/Comercial/1/3.Vista3D.jpg",
+        "img/Arquitectura/Comercial/1/4.3D.jpg"
+    ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Exponor"
+    },
+    {
+     "title": "Café Aveiro",
+     "image": "img/Arquitectura/Comercial/2/1.3DView1.jpg",
+     "description": "Projecto para reabilitação de espaço para Establecimento Comercial - Café/Padaria em Aveiro.",
+     "category": "arquitectura",
+     "date": "Agosto 2016",
+     "images": [
+        "img/Arquitectura/Comercial/2/1.3DView1.jpg",
+        "img/Arquitectura/Comercial/2/2.Planta.jpg",
+        "img/Arquitectura/Comercial/2/3.3DView2.jpg",
+        "img/Arquitectura/Comercial/2/4.3DView3.jpg",
+        "img/Arquitectura/Comercial/2/5.3DView4.jpg",
+        "img/Arquitectura/Comercial/2/6.3DView5.jpg"
+     ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Aveiro"
+    },
+    {
+     "title": "Salão de Beleza Labruge",
+     "image": "img/Arquitectura/Comercial/3/1.Vista3D1.jpg",
+     "description": "Projecto para reabilitação de espaço de Salão de Beleza Labruge, Vila do Conde. Redecoração de Mobiliário, Revestimentos e reorganização dos espaços interiores.",
+     "category": "arquitectura",
+     "date": "Agosto 2016",
+     "images": [
+        "img/Arquitectura/Comercial/3/1.Vista3D1.jpg",
+        "img/Arquitectura/Comercial/3/2.Vista3D2.jpg",
+        "img/Arquitectura/Comercial/3/3.Vista3D3.jpg",
+        "img/Arquitectura/Comercial/3/4.Vista3D4.jpg",
+        "img/Arquitectura/Comercial/3/5.3DPlanta1.jpg",
+        "img/Arquitectura/Comercial/3/6.3Dplanta2.jpg"
+     ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Labruge, Vila do Conde"
+    },
+    {
+     "title": "Clínica Rime",
+     "image": "img/Arquitectura/Comercial/4/1.Vista3D1.jpg",
+     "description": "Projecto para reabilitação de espaço de Salas de Espera em Clínica situada no Porto. Design de interiores.",
+     "category": "arquitectura",
+     "date": "Agosto 2016",
+     "images": [
+        "img/Arquitectura/Comercial/4/1.Vista3D1.jpg",
+        "img/Arquitectura/Comercial/4/2.Vista3D2.jpg",
+        "img/Arquitectura/Comercial/4/3.Vista3D3.jpg",
+        "img/Arquitectura/Comercial/4/4.Planta.png",
+        "img/Arquitectura/Comercial/4/5.PlantaRevestimentos.jpg",
+        "img/Arquitectura/Comercial/4/6.PlantaLumináriasTomadas.png"
+     ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Porto"
+    },
+    {
+     "title": "Clínica Dentária - Ronfe",
+     "image": "img/Arquitectura/Comercial/5/1.ÁreaCrianças.jpg",
+     "description": "Projecto para reabilitação de Receção e Sala de espera em Clínica Dentária situada em Ronfe - Guimarães. Design de interiores e Mobiliário de receção.",
+     "category": "arquitectura",
+     "date": "Julho 2016",
+     "images": [
+        "img/Arquitectura/Comercial/5/1.ÁreaCrianças.jpg",
+        "img/Arquitectura/Comercial/5/2.3DView1.jpg",
+        "img/Arquitectura/Comercial/5/3.3DView3.jpg",
+        "img/Arquitectura/Comercial/5/4.LogoRetroiluminado.jpg",
+        "img/Arquitectura/Comercial/5/5.3DView5.jpg"
+     ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Ronfe, Guimarães"
+    },
+    {
+     "title": "Restaurante Acácio Lino",
+     "image": "img/Arquitectura/Comercial/6/1.jpg",
+     "description": "Caracterização do Local:<br/>O edifício fica à face da estrada interior com alguma circulação automóvel. Localizado perto da vila de Travanca, concelho de Amarante. Uma área interior com vegetação volumosa. O terreno não tem nivelamento a toda a sua extenção; mas como cota de pavimento de estrada de 108,02, a cota interior do edifício está acima da cota da referida via cerca de 1,00 metros, e por isso protegido do risco de inundações por águas pluviais ou por enxurradas.<br/>Caracterização do Edifício:<br/>Caracterização do Edifício:<br/>O edifício é constituído por um volume rectangular disposto paralelamente à estrada.<br/>Foi feita uma análise exaustiva e rigorosa ao terreno existente, incluindo registo fotográfico e estudos desenhados.<br/>- A estrutura do edifício é em betão armado.- As paredes exteriores são em alvenaria de tijolo, com cerca de 35 cm de espessura. A fachada principal é composta maioritariamente por vidro exceptuando o volume mais a Norte cuja fachada é cega.<br/>- A estrutura das coberturas é executada em betão com as consequentes impermeabilizações necessarias.<br/>- As paredes interiores são em alvenaria de tijolo com 11 cm de espessura.<br/>Implantação e Relação com a Envolvente:<br/>A área de implantação do edifício é de 511.00m2, num edifício de dois pisos. A implantação traduz um edifício sóbrio, que garante uma proximidade com os arruamentos de acesso, e contribui para um bom enquadramento urbanístico do edifício na envolvente local e para sua relação formal com os edifícios mais próximos e a paisagem do lugar, nomeadamente o Museu Acácio Lino, parque de estacionamento e Bungalows.<br/>Programa Funcional:<br/>O projecto do restaurante, divide-se em duas partes distintas. Piso térreo, destinado a Bar e prova de vinhos e adega. No piso superior podemos encontrar o restaurante, esplanada e acesso pedonal superior de acesso ao parque Acácio Lino. A implantação do edificio e as respectivas acessibilidades foram as primeiras preocupações a considerar.<br/>Mantendo a ideia de que se deveria preservar a “melhor panorâmica” optamos por deixar o sector Poente do terreno completamente desafogado, transportando para a parte mais elevada do mesmo (sector Norte) as áreas técnicas de serviço ao edifício. A Sul /Ponte encontramos a esplanada e sala de refeições, a Nascente instalações sanitárias e arrumos. O acesso à construção poderá ser feito de três modos, através da estrada principal, ponte pedonal (vindo do parque Acácio Lino), e parque de estacionamento. Já no patamar superior, e para além da existência de uma ampla varanda com esplanada, valorizando a vista para parque museu Acácio Lino. Todas as divisões cumprem a legislação em vigor, em especial no que se refere a áreas mínimas, pés-direitos livres, instalações sanitárias, segurança, ventilação e iluminação.<br/>Solução estética e alçados:<br/>Pretendemos que a leitura exterior do edifício mostrasse a preocupação tida para que a implantação do mesmo respeitasse as características naturais do terreno e para que não se criassem volumes que contrariassem a dinâmica do local. No essencial o edifício é constituído por dois volumes com coberturas planas, não circulável. Procuramos também que existisse uma razoável relação entre os diferentes volumes e que o ritmo dos vãos fosse bastante equilibrado.<br/>",
+     "category": "arquitectura",
+     "date": "Setembro 2009",
+     "images": [
+        "img/Arquitectura/Comercial/6/1.jpg",
+        "img/Arquitectura/Comercial/6/2.jpg",
+        "img/Arquitectura/Comercial/6/3.jpg",
+        "img/Arquitectura/Comercial/6/4.jpg",
+        "img/Arquitectura/Comercial/6/5.jpg",
+        "img/Arquitectura/Comercial/6/6.jpg",
+        "img/Arquitectura/Comercial/6/7.jpg",
+        "img/Arquitectura/Comercial/6/8.jpg",
+        "img/Arquitectura/Comercial/6/9.jpg",
+        "img/Arquitectura/Comercial/6/10.jpg",
+        "img/Arquitectura/Comercial/6/11.jpg",
+        "img/Arquitectura/Comercial/6/12.jpg"
+     ],
+     "subcategory": "Arquitectura Comercial",
+     "location": "Travanca, AMARANTE"
+    },
+    {
+     "title": "Extension between the Alvar Aalto Museum and Museum of Central Finland",
+     "image": "img/Arquitectura/Concursos/1/1.int.jpg",
+     "description": "Layoutfour Collaboration<br/>Conceptualizing<br/>- Looking for its own identity, the proposal is based on the general framework of the surroundings and their own importance. There is a double intentionality, in the insertion of the element, between the two museums and its historical and cultural importance, inherent in their origin and functionality in and for the country.<br/>- Starting from the irregular nature of land analysis, the intervention in this plot of land, with residual characteristics, while following the modernism present in buildings of reference, the proposal is presented as a  connecting point, while taking formal rupture that requires composing assumptions for the projection of the focus in space.<br/>- The conceptual autonomy proposal intend to connect two buildings through a dichotomy directions where it focuses on the essence, not only a connecting point or a mere extension, but an own identity creation of an area endowed with an important and formal independence.<br/>- The architectural language that the proposal has, focuses on the interconnection between the indoor and outdoor space. Transparency and intense relationship with the environment can create strong communication links between the built object and the space.<br/>MATERIALIZATION and PROGRAM<br/>- The contemporaneity of the proposed project aims to use materials such as glass, concrete and metal elements, looking for the desired structural lightness in order to build their own identity ever abandoning his nature and functionality inherent orientation of premises and creating the building, as well as, the intimate relation with the exterior.<br/>- At the organizational level circulations seek the interrelationship between the two museums, creating guidance line, an identification point which is located over two floors.<br/>- On the ground floor we can find one area of 193.26 square meters of storage space, which may be shared between the two museums, that can be further subdivided, and provides access to the upper floor (public area), by means of the service lift,  as far as, the access to exterior. outdoor areas and the linking between the first floor of Alvar Aalto Museum.<br/>- In the proposal superior floor, with connection to the two museums,  we find exterior areas,  destined to Museums Store, areas ofcirculation, storage, living space, a lift module and a service sanitary facilities. Up this whole area presents  and is characterised by excellent transparency and brightness, which crosses the entire space trought de large window with external views. It is however worth noting, the concerning with accessibility, without architectural barrier,  promoting free movement spaces.<br/>ARCHITECTS: André Terleira - Architect, Artur Dionísio - Architect, Hélder Rodrigues - Architect, Paulo Gomes - Architect",
+     "category": "arquitectura",
+     "date": "Março 2016",
+     "images": [
+        "img/Arquitectura/Concursos/1.int.jpg",
+        "img/Arquitectura/Concursos/2.Alvar-Alto.jpg",
+        "img/Arquitectura/Concursos/3.Implantação.jpg",
+        "img/Arquitectura/Concursos/4.Piso0.jpg",
+        "img/Arquitectura/Concursos/5.Piso1.jpg",
+        "img/Arquitectura/Concursos/6.AlçadosCortes.jpg",
+        "img/Arquitectura/Concursos/7.AlçadosCortes2.jpg"
+     ],
+     "subcategory": "Arquitectura Concursos",
+     "location": "Finlandia"
+    },
+    {
+     "title": "Lagoa de Quitundo Resort",
+     "image": "img/Arquitectura/Concursos/2/1.EdificioPrincipal.jpg",
+     "description": "Layoutfour Collaboration<br/>Architects: André Terleira, Hélder Rodrigues, Artur Dionísio e Paulo Gomes<br/>Studio: Layoutfour<br/>Name of the project: Lagoa de Quitundo Resort in Angola<br/>The Project Lagoa de Quitundo Resort  in Angola is the Layoutfour response to a design and architecture competition promoted by Archiproposals and Sketch in the framework of a Project for a resort / center of sports training, in order to generate new architectural ideas as it is proposed to boost the development of local tourism.<br/>The project seeks a simple and contemporary architectural language with the least impact possible on the ground, responding to functional multilicity of the Resort and allowing the independent operation of all its components.<br/>The materials used in the buildings were based on the use of local and  sustainable materials, for their character and  for its natural beauty. The concrete for the simplicity and speed of construction.<br/>The entire complex is composed of: Center of sports training, hotel and housing units.<br/>The project was awarded with 3rd place (2nd honorable mention) in the competition, in the 27th of march 2015.",
+     "category": "arquitectura",
+     "date": "Fevereiro 2016",
+     "images": [
+        "img/Arquitectura/Concursos/1.EdificioPrincipal.jpg",
+        "img/Arquitectura/Concursos/2.Loby.jpg",
+        "img/Arquitectura/Concursos/3.Modulo-T1.jpg",
+        "img/Arquitectura/Concursos/4.Modulo-T1.jpg",
+        "img/Arquitectura/Concursos/5.Modulo-T1.jpg",
+        "img/Arquitectura/Concursos/6.Painel1.jpg",
+        "img/Arquitectura/Concursos/7.Painel2.jpg"
+     ],
+     "subcategory": "Arquitectura Concursos",
+     "location": "Angola"
+    },
+    {
+     "title": "Symbolic World Cup Structure",
+     "image": "img/Arquitectura/Concursos/3/1.Lapa-03_C.jpg",
+     "description": "Colaboração Layoufour: Arq. André Terleira, Arq. Artur Dionisio, Arq. Héºder Rodrigues<br/>A praça, no Bairro da Lapa, Rio de Janeiro, insere-se na convergência com uma área residencial, um pouco desconexa e disfuncional,embora não utilizando todo o seu potencial para servir de ponto de afluência, criando dinâmicas socias e humanas necessárias.<br/>O espaço é circundado por vias de circulação automóvel e pontualmente pedonal. Um pouco fruto das sucessivas transformações ao longo do tempo, a praça foi perdendo o seu cariz dinâmico e centralizador, pretendendo-se recuperar com toda a importância que a “PRAÇA” tem na vida da urbe.<br/>Propõe-se a consolidação dos espaços verdes existentes, assim como a sua continuidade, apontando a criação de espaços de circulação, sombreamento e de fruição do próprio parque/praçatornando-o das e para as pessoas.Com a inserção do equipamento proposto oferece-se a possibilidade de usufruir do parque em dias de jogos com transmissão em direto do Mundial, no próprio parque, como também ao longo de qualquer horário ou atividades.<br/>Conceito<br/>Partindo do reconhecimento das vias de circulação de acesso à praça dos arcos da Lapa, assim como as dinâmicas de circulação que a definem, foi procurado manter a identidade do espaço e sua herança, embora criando novas dinâmicas, partido das existentes. A incontestável importância da presença da monumental arcada marca definitivamente o desenvolvimento de toda a proposta e sua organização funcional, pretendendo valorizar o património existente.<br/>O desenho da praça assenta na imensa arcada mas também convexa num espaço marcado no piso de forma circular o que originará o desenvolvimento de todo o projeto – arcada/circulações/organização.<br/>Apresenta-se como principal objetivo a valorização do espaço procurou-se uma perfeita integração das pessoas no lugar e nesta relação de proximidade perfeitamente orgânica.<br/>Denotou-se o prolongamento das vias de circulação, atravessando toda a área de intervenção, sendo estas as linhas orientadoras e ponto de partida para o projeto apresentado.<br/>Como uma pedra que é esculpida pela água o projeto foi sendo esculpido organicamente pelos elementos existentes numa simbiose que define toda a forma.",
+     "category": "arquitectura",
+     "date": "Julho 2013",
+     "images": [
+        "img/Arquitectura/Concursos/1.Lapa-03_C.jpg",
+        "img/Arquitectura/Concursos/2.Lapa-05.jpg",
+        "img/Arquitectura/Concursos/3.Lapa-00.jpg",
+        "img/Arquitectura/Concursos/4.Lapa-01.jpg",
+        "img/Arquitectura/Concursos/5.Lapa-02.jpg",
+        "img/Arquitectura/Concursos/6.3DView7.jpg",
+        "img/Arquitectura/Concursos/7.Painel.jpg"
+     ],
+     "subcategory": "Arquitectura Concursos",
+     "location": "Rio de Janeiro, Brasil"
+    },
+    {
+     "title": "Tree House Unit - \"Microhousing Ideas Competition\"",
+     "image": "img/Arquitectura/Concursos/4/1.M3digital.jpg",
+     "description": "Colaboração de Arq. César Marques, Arq. André Terleira e Arq. João Sobrosa no Projecto Tree House Unit premiada com uma Deserved Mention no concurso internacional \"Microhousing Ideas Competition\"  em Denver nos EUA.<br/>Tree House Unit<br/>Desenvolivido pelo atlier de arquitectura do Arq. César Marques, o projecto recebeu uma \"deserved mention\" na competição internacional \"Microhousing Ideas Competition\", promovida pela \"Denver Architectural League\".<br/>É um conceito de casa-árvore, cuja estrutura simula o tronco e os ramos de uma árvore, além dos materiais utilizados como a madeira e a cortiça, que são recicláveis e assenta em vectores como a sustentabilidade e a economia.<br/>Consiste num conjunto habitacional de 8 unidades de habitação cada uma com 5,5m de altura e 35m2 de área desenvolvidos em duas cotas. O programa da habitação contém todas as áreas de uma habitação tradicional: área de dormida, área de cozinha, instalações sanitárias e área de lazer com uma pequena zona de trabalho.",
+     "category": "arquitectura",
+     "date": "Julho 2013",
+     "images": [],
+     "subcategory": "Arquitectura Concursos",
+     "location": "RDenver USA"
+    },
+    {
+     "title": "Tree House Unit - Desafios Urbanos 12",
+     "image": "img/Arquitectura/Concursos/5/1.jpg",
+     "description": "Colaboração de Arq. André Terleira e Arq. Hélder Rodrigues<br/>1. Nota introdutória<br/>Partindo-se das premissas estabelecidas no regulamento do concurso de Arquitectura DESAFIOS URBANOS’12, no qual se pretende o repensar de que forma se pode revitalizar um imóvel privado, de carácter industrial, localizado na Av. D.Afonso Henriques na cidade de Guimarães.<br/>Torna-se essencial conhecer a área envolvente e suas dinâmicas urbanas como também entender as potencialidades arquitectónicas inerentes ao edifício em foco. No entanto o estado devoluto do edifício preconiza uma intervenção cuidada, protegendo o património existente, sem nunca esquecer o enquadramento deste no tecido urbano da cidade dinamizando os sistemas empresariais, comerciais e socio-económicas. A contextualização da intervenção no espaço e no tempo tem inevitavelmente que se delimitar na situação económica não só da cidade mas também do país. Isto marcará todo índice de intenções da proposta apresentada, procurando incessantemente a dinamização, potencialização e promoção do comércio local, regional e nacional.<br/>A solução arquitectónica a desenvolver visa a inovação dos sistemas inter-relacionais entre a população e o espaço construído de forma a proporcionar o desenvolvimento do comércio, a nível das importações e exportações de produtos nacionais.<br/>A contemporaneidade da essência da proposta assenta na exequibilidade da mesma, quer a nível conceptual como também seguindo todas as exigências construtivas inerentes ao processo de construção. Pretendendo estabelecer uma profunda reestruturação de mentalidades a defesa do espaço e da própria identidade da região estabelece a linha orientadora ao longo de todo o processo criativo, no qual a sensibilidade acerca de questões materiais e sensoriais fica bem patente na identidade ambicionada para o imóvel, criando um ponto de referência na cidade e mesmo no país.<br/>3. Conceito geral da proposta e Linha orientativa<br/>3.1 Objetivos socio-económicos e ambientais",
+     "category": "arquitectura",
+     "date": "Maio 2012",
+     "images": [],
+     "subcategory": "Arquitectura Concursos",
+     "location": "Guimarães"
+    },
+    {
      "title": "Projecto 11x11",
-     "image": "img/project1/3DView20.jpg",
-     "description": "Projecto de Moradia Unifamiliar Distribuida em dois pisos (Cave+Rés-do-chão). A distibuição dos espaços interiores caracteriza-se pela diferenciação dos compartimentos socias e privados.Na frente da casa encontram-se as áreas sociais: salas e cozinha em conceito de \"openspace\" e na parte posterior as áreas de quartos e Instalações sanitárias. Na cave situa-se a Garagem e arrumos com acesso directo ao piso superior por meio de um vão de escadas situadas no centro do projecto que contém uma clarabóia para iluminação natural.",
+     "image": "img/Arquitectura/Habitacional/1/1.VistaExterior1.jpg",
+     "description": "Projecto de Moradia Unifamiliar Distribuida em dois pisos (Cave+Rés-do-chão). A distibuição dos espaços interiores caracteriza-se pela diferenciação dos compartimentos socias e privados. Na frente da casa encontram-se as áreas sociais: salas e cozinha em conceito de \"openspace\" e na parte posterior as áreas de quartos e Instalações sanitárias. Na cave situa-se a Garagem e arrumos com acesso directo ao piso superior por meio de um vão de escadas situadas no centro do projecto que contém uma clarabóia para iluminação natural.",
      "category": "arquitectura",
      "date": "Janeiro 2017",
-     "images": ["img/project1/3DView20.jpg"]
-    },
-    {
-     "title": "Avioso Graffiti House",
-     "image": "img/project2/3DView2.jpg",
-     "description": "Projecto de Moradia Unifamiliar geminada de tipologia T3 distribuida em dois pisos (Rés-do-chão+Piso 1). A distibuição dos espaços interiores caracteriza-se pela divisão por pisos dos compartimentos socias e privados. No Rés-do-chão da moradia encontram-se as áreas sociais: hall de entrada, salas e cozinha em conceito de \"openspace\" e uma pequena instalação sanitária de serviço na parte inferior das escadas, No piso superior situam-se as áreas privadas: quartos, Suite com Is e \"walk in closet\" e Instalação sanitária comum; este piso tem maior dimensão que o piso inferior proporcionando sombreamento ás areas sociais assim como áreas exteriore cobertas. Na parte posterior do terreno situa-se um anexo com garagem e uma pequena lavandaria. Esta Habitação caracteriza-se por um graffiti de grandes dimensões na fachada do edificio assim como um revestimento em madeira nas áreas cobertas do Rés do chão.",
-     "category": "arquitectura",
-     "date": "Janeiro 2017",
-     "location": "Santa Maria do Avioso - Maia - Porto"
-    },
-    {
-     "title": "Micro casa em Altura",
-     "image": "img/portfolio/hotel.jpg",
-     "description": "Estudo de Habitação Unifamiliar de pequenas dimensões",
-     "category": "arquitectura",
-     "date": "2016"
+     "images": [],
+     "subcategory": "Arquitectura Habitacional",
+     "location": ""
     },
     {
      "title": "Sala apto Porto",
