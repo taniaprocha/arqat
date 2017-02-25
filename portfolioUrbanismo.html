@@ -92,7 +92,7 @@
     <div>ANDRÉ TERLEIRA © 2017 | ARQUITETURA E CONSTRUÇÃO</div>
 </footer>
 <!-- MODAIS =========================================================================== -->
-    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i></button>
@@ -130,14 +130,14 @@
                 projects.push(value);
                 $('#project-name').text(value.title);
                 $('#project-img').attr('src', value.image)
-                $('.porto').append('<div class="col-md-4 col-sm-6 portfolio-item" id="item-'+index+'">'
+                $('.porto').append('<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" id="item-'+index+'">'
                     +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
                         +'<div class="portfolio-hover">'
                             +'<div class="portfolio-hover-content">'
                                 +'<i class="fa fa-plus fa-3x"></i>'
                             +'</div>'
                         +'</div>'
-                        +'<img src="'+value.image+'" class="img-responsive" alt="">'
+                        + '<div class="image" style="background-image: url(' + value.image + ')"></div>'
                     +'</a>'
                     +'<div class="portfolio-caption">'
                         +'<h4>'+value.title+'</h4>'  
@@ -147,6 +147,22 @@
             }
         });
     });
+
+    function appendItem(object, cont, index, image, title){
+         object.append('<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" id="item-'+index+'">'
+            +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
+                +'<div class="portfolio-hover">'
+                    +'<div class="portfolio-hover-content">'
+                        +'<i class="fa fa-plus fa-3x"></i>'
+                    +'</div>'
+                +'</div>'
+                + '<div class="image" style="background-image: url(' + image + ')"></div>'
+            +'</a>'
+            +'<div class="portfolio-caption">'
+                +'<h4>'+title+'</h4>'  
+            +'</div>'
+        +'</div>');
+    }
     
     function openModal(index){
         $('#project-name').text(projects[index].title);
