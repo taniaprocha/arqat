@@ -299,37 +299,19 @@ body
 #portfolio{
 		padding-top: 0px;
 }
-#portfolio .portfolio-item
+	#portfolio .portfolio-item
 {
-	margin:0 0 30px;
-	padding: 0;
+	margin:0 0 15px;
+	right:0
 }
-
 	#portfolio .portfolio-item .portfolio-link
 {
 	display:block;
 	position:relative;
-	width:280px;
-	height: 200px;
-	overflow: hidden;
-	margin:0 auto;
+	max-width:300px;
+	margin:0 auto
 }
-
-
-#portfolio .portfolio-item .portfolio-link .image{
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-#portfolio .portfolio-item .portfolio-link img{
-	height: 100%;
-	width: 100%;
-	object-fit: center;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover
+	#portfolio .portfolio-item .portfolio-link .portfolio-hover
 {
 	background:rgba(239,95,95,.7);
 	position:absolute;
@@ -389,6 +371,10 @@ body
 }
 	@media (min-width:767px)
 {
+	#portfolio .portfolio-item
+{
+	margin:0 0 30px
+}
 
 }
 #about img
