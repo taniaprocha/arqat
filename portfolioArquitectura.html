@@ -14,12 +14,13 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 <!-- FONTS =========================================================================== -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
     
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -147,7 +148,7 @@
     });
 
     function appendItem(object, cont, index, image, title){
-         object.append('<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" id="item-'+index+'">'
+         object.append('<div class="portfolio-item" id="item-'+index+'">'
             +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
                 +'<div class="portfolio-hover">'
                     +'<div class="portfolio-hover-content">'
@@ -156,9 +157,7 @@
                 +'</div>'
                 + '<div class="image" style="background-image: url(' + image + ')"></div>'
             +'</a>'
-            +'<div class="portfolio-caption">'
-                +'<h4>'+title+'</h4>'  
-            +'</div>'
+            +'<div class="portfolio-caption">' + title + '</div>'
         +'</div>');
     }
     

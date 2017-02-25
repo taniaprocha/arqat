@@ -1,0 +1,150 @@
+header
+{
+    color:#fff;
+    padding: 200px 0;
+}
+
+#skills{
+    color: #fff;
+}
+
+.bg-light-gray{  
+    background-color:#efebe1
+}
+
+.fa-home:before {
+    color: black !important;
+}
+
+.fa-building:before {
+    color: black !important;
+}
+.fa-users:before {
+    color: black !important;
+}
+.fa-laptop:before {
+    color: black !important;
+}
+.fa-stack-2x{
+    color: #808080;
+    opacity: 0.3;
+}
+
+.fa-plus.fa-3x{
+    font-size: 35px;
+}
+
+.service-heading{
+    color: black;
+}
+
+section h2.section-heading{
+    color: black;
+    text-align: left;
+}
+
+#portfolio .portfolio-item
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 280px;
+    float: left;
+}
+
+    #portfolio .portfolio-item .portfolio-link
+{
+    display:block;
+    position:relative;
+    width:280px;
+    height: 200px;
+    overflow: hidden;
+    margin:0 auto;
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+}
+
+
+#portfolio .portfolio-item .portfolio-link .image{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+#portfolio .portfolio-item .portfolio-link img{
+    height: 100%;
+    width: 100%;
+    object-fit: center;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover
+{
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:all ease .5s;
+    -webkit-transition:all ease .5s;
+    -moz-transition:all ease .5s
+}
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover
+{
+    opacity:1
+}
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content
+{
+    position:absolute;
+    width:100%;
+    height:20px;
+    font-size:20px;
+    text-align:center;
+    top:50%;
+    margin-top:-12px;
+    color:#fff
+}
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i
+{
+    margin-top:-12px
+}
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4
+{
+    margin:0
+}
+    #portfolio .portfolio-item .portfolio-caption
+{
+    max-width:400px;
+    margin:0 auto;
+    background-color:#fff;
+    text-align:center;
+    padding:10px
+}
+    #portfolio .portfolio-item .portfolio-caption h4
+{
+    text-transform:none;
+    margin:0
+}
+#portfolio .portfolio-item .portfolio-caption
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    margin:0;
+}
+
+.arquitectura .sub-title{
+    width: 100%;
+    float: none;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.arquitectura .arquitectura-sub,
+.arquitectura .design-sub{
+    display: inline-block;
+    text-align: left;
+
+}
