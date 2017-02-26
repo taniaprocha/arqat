@@ -102,6 +102,31 @@
 }
 
 .preview img {
+    height: 400px;
+    max-width: 96%;
+}
+
+.thumbnails{
+    margin-top: 10px;
+}
+
+.thumbnails img {
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.thumbnails img:hover {
+    border: 1px solid white;
+    cursor:pointer;
+}
+
+.preview .image {
     width: 500px;
     height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
 }
