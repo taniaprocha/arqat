@@ -299,90 +299,7 @@ body
 #portfolio{
 		padding-top: 0px;
 }
-#portfolio .portfolio-item
-{
-	margin:0 0 30px;
-	padding: 0;
-}
 
-	#portfolio .portfolio-item .portfolio-link
-{
-	display:block;
-	position:relative;
-	width:280px;
-	height: 200px;
-	overflow: hidden;
-	margin:0 auto;
-}
-
-
-#portfolio .portfolio-item .portfolio-link .image{
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-
-#portfolio .portfolio-item .portfolio-link img{
-	height: 100%;
-	width: 100%;
-	object-fit: center;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover
-{
-	background:rgba(239,95,95,.7);
-	position:absolute;
-	width:100%;
-	height:100%;
-	opacity:0;
-	transition:all ease .5s;
-	-webkit-transition:all ease .5s;
-	-moz-transition:all ease .5s
-}
-	#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover
-{
-	opacity:1
-}
-	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content
-{
-	position:absolute;
-	width:100%;
-	height:20px;
-	font-size:20px;
-	text-align:center;
-	top:50%;
-	margin-top:-12px;
-	color:#fff
-}
-	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i
-{
-	margin-top:-12px
-}
-	#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4
-{
-	margin:0
-}
-	#portfolio .portfolio-item .portfolio-caption
-{
-	max-width:400px;
-	margin:0 auto;
-	background-color:#fff;
-	text-align:center;
-	padding:25px
-}
-	#portfolio .portfolio-item .portfolio-caption h4
-{
-	text-transform:none;
-	margin:0
-}
-	#portfolio .portfolio-item .portfolio-caption p
-{
-	font-family: 'Roboto', sans-serif;
-	font-style:italic;
-	font-size:16px;
-	margin:0
-}
 	#portfolio *
 {
 	z-index:2
@@ -428,11 +345,11 @@ body
 
 }
 
-.carousel-header{
+/*.carousel-header{
     display: block;
     max-width: 200px;
-    height: 200px;
-}
+    height: 300px;
+}*/
 .span{
 	margin-top: 50px;
 }
@@ -494,7 +411,7 @@ section h2.section-heading{
  }
 
  #myCarousel .carousel-inner{
- 	height: 450px;
+ 	height: 500px;
  }
 
  .main-header{

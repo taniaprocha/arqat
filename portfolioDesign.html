@@ -78,7 +78,7 @@
                    <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
                 </div>
             </div>
-            <div class="row">
+            <div class="row design">
                 <div class="row sub-title">Design Concursos</div>
                 <div class="row design-sub design-concursos"></div>
                 <div class="row sub-title">Design de Interiores</div>
@@ -104,7 +104,7 @@
             </div>
             <div class="container">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left">
-                    <img id='project-img' class="img-responsive img-centered" src="img/portfolio/1.png" alt="">
+                    <img id='project-img' class="img-responsive img-centered" src="" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right">
                     <h2 class="project-name" id='project-name'></h2>                        
@@ -121,7 +121,6 @@
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
- <script src="js/jQuery_Easing.js"></script>
  <script src="js/main.js"></script>
  <script src="js/jquery-3.1.0.min.js"></script>
 
@@ -136,17 +135,17 @@
                 projects.push(value);
                 $('#project-name').text(value.title);
                 $('#project-img').attr('src', value.image);
-                /*if(value.subcategory.toLowerCase().indexOf('concursos') !== -1){
+                if(value.subcategory.toLowerCase().indexOf('concursos') !== -1){
                     appendItem($('.design-concursos'), cont, index, value.image, value.title);
                 }else if(value.subcategory.toLowerCase().indexOf('interiores') !== -1){
                     appendItem($('.design-interiores'), cont, index, value.image, value.title);
                 }else if(value.subcategory.toLowerCase().indexOf('logotipos') !== -1){
                     appendItem($('.design-logotipos'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('logotipos') !== -1){
+                }else if(value.subcategory.toLowerCase().indexOf('mobiliario') !== -1){
                     appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
-                }*/
+                }
                 
-                appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
+                //appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
                 cont++;
             }
         });
@@ -169,7 +168,7 @@
     function openModal(index){
         $('#project-name').text(projects[index].title);
         $('#project-img').attr('src', projects[index].image);
-        $('#project-description').text(projects[index].description);
+        $('#project-description').html(projects[index].description);
         $('#project-date span').text(projects[index].date);
         if(projects[index].location !== undefined){
             $('#project-location span').text(projects[index].location);
