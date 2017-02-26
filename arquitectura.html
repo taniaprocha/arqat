@@ -72,7 +72,6 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Arquitectura</h2>
                     <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
-                   <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
                 </div>
             </div>
             <div class="row arquitectura">
@@ -99,7 +98,7 @@
             </div>
             <div class="container">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left">
-                    <img id='project-img' class="img-responsive img-centered" src="" alt="">
+                    <div id='project-img' class='project-img'></div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right">
                     <h2 class="project-name" id='project-name'></h2>                        
@@ -116,8 +115,6 @@
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
- <script src="js/main.js"></script>
- <script src="js/jquery-3.1.0.min.js"></script>
 
     <script>
     var projects=[];
@@ -148,7 +145,7 @@
             +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
                 +'<div class="portfolio-hover">'
                     +'<div class="portfolio-hover-content">'
-                        +'<i class="fa fa-plus fa-3x"></i>'
+                    +  '<div class="portfolio-plus">ver <i class="fa fa-plus"></i></div>'
                     +'</div>'
                 +'</div>'
                 + '<div class="image" style="background-image: url(' + image + ')"></div>'
@@ -159,14 +156,14 @@
     
     function openModal(index){
         $('#project-name').text(projects[index].title);
-        $('#project-img').attr('src', projects[index].image);
+        $('#project-img').css('background-image', 'url(' + projects[index].image + ')');
         $('#project-description').html(projects[index].description);
-        $('#project-date span').text(projects[index].date);
-        if(projects[index].location !== undefined){
-            $('#project-location span').text(projects[index].location);
-            $('#project-location').css('opacity', 1);
+        $('#project-date span').text(' ' + projects[index].date);
+        if(projects[index].location !== undefined && projects[index].location !== ''){
+            $('#project-location span').text(' ' + projects[index].location);
+            $('#project-location').css('display', 'block');
         }else{
-            $('#project-location').css('opacity', 0);
+            $('#project-location').css('display', 'none');
         }
     }
 
