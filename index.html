@@ -17,7 +17,6 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
     
-    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- Custom CSS -->
@@ -45,7 +44,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="atelier.html">APRESENTAÇÃO</a>
+                        <a class="page-scroll" href="apresentacao.html">APRESENTAÇÃO</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="servicos.html">SERVIÇOS</a>
@@ -53,9 +52,9 @@
                     <li>
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJECTOS</a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolioArquitectura.html">Arquitectura</a></li>
-                            <li><a href="portfolioDesign.html">Design</a></li>
-                            <li><a href="portfolioUrbanismo.html">Urbanismo</a></li>
+                            <li><a href="arquitectura.html">Arquitectura</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="urbanismo.html">Urbanismo</a></li>
                         </ul>
                     </li>
                     <li>
@@ -142,75 +141,9 @@
 </body>
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
- <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"</script>-->
  <script src="js/bootstrap.min.js"></script>
  <script src="js/main.js"></script>
  
-
-<script>
-        /*$.getJSON('json/noticias.json',function(data){
-            $(data.noticias).each(function(index,value){
-                $('.teste').append( '<div class="col-md-3 " >'
-                    +'<span class="fa-stack fa-4x">'
-                    +'<img src="'+value.image+'" class="img-responsive" alt=""></span>'
-                    +'<h4 class="service-heading">'+value.title+'</h4>'
-                    +'<h7 class="service-heading">'+value.desc+'</h7>'
-                    +'</div>');
-            });
-        });
-
-        $.getJSON('json/portfolioglobal.json',function(data){
-            var numbers = [];
-            while(numbers.length < 3){
-                var number = Math.floor((Math.random() * data.portfolioglobal.length));
-                if(numbers.indexOf(number) === -1){
-                    numbers.push(number);
-                }
-            }
-            console.log(numbers);
-            
-            numbers.map(function(number){
-                var category = data.portfolioglobal[number].category;
-                var href = '';
-                if(category === 'arquitectura'){
-                    href = 'portfolioArquitectura.html';
-                }else if(category === 'design'){
-                    href = 'portfolioDesign.html';    
-                }else{
-                    href = 'portfolioUrbanismo.html';
-                }
-                console.log(data.portfolioglobal[number]);
-                $('#teste1').append('<div class="col-md-4 col-sm-6 portfolio-item">'
-                    +'<a href="./' + href + '" class="portfolio-link" data-toggle="modal">'
-                    +'<div class="portfolio-hover">'
-                    +'<div class="portfolio-hover-content">'
-                    +'<i class="fa fa-plus fa-3x"></i>'
-                    +'</div>'
-                    +'</div>'
-                    +'<img src="'+data.portfolioglobal[number].image+'" class="img-responsive" alt="">'
-                    +'</a>'
-                    +'<div class="portfolio-caption">'
-                    +'<h4>'+data.portfolioglobal[number].title+'</h4>'  
-                    +'</div>'
-                    +'</div>'
-                ); 
-            });
-        });
-
-        $.getJSON('json/servicos.json',function(data){
-           console.log(data);
-           $(data.serviços).each(function(index,value){
-                console.log(value.logo);
-                $('.teste2').append('<div class="col-md-4">'
-                    +'<span class="fa-stack fa-4x">'
-                    +'<i class="fa fa-circle fa-stack-2x text-primary"></i>'
-                    +'<i class="fa fa-'+value.logo+'" aria-hidden="true"></i>'
-                    +'</span>'
-                    +'<h4 class="service-heading">'+value.title+'</h4>'
-                    +'<h7  class="service-heading">'+value.desc+'</h7>'
-                    +'</div>');
-            });
-        });*/
 </script>
 <script>
     $('.carousel').carousel({

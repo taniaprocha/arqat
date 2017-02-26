@@ -12,12 +12,10 @@
 <!-- CSS =========================================================================== -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 <!-- FONTS =========================================================================== -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
     
-    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
@@ -44,7 +42,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="atelier.html">APRESENTAÇÃO</a>
+                        <a class="page-scroll" href="apresentacao.html">APRESENTAÇÃO</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="servicos.html">SERVIÇOS</a>
@@ -52,9 +50,9 @@
                     <li>
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJECTOS</a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolioArquitectura.html">Arquitectura</a></li>
-                            <li><a href="portfolioDesign.html">Design</a></li>
-                            <li><a href="portfolioUrbanismo.html">Urbanismo</a></li>
+                            <li><a href="arquitectura.html">Arquitectura</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="urbanismo.html">Urbanismo</a></li>
                         </ul>
                     </li>
                     <li>
@@ -73,16 +71,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Urbanismo</h2>
+                    <h2 class="section-heading">Design</h2>
                     <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
                    <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
                 </div>
             </div>
-            <div class="row urbanismo">
-                <div class="row sub-title">Urbanismo</div>
-                <div class="porto">
-                    
-                </div>
+            <div class="row design">
+                <div class="row sub-title">Design Concursos</div>
+                <div class="row design-sub design-concursos"></div>
+                <div class="row sub-title">Design de Interiores</div>
+                <div class="row design-sub design-interiores"></div>
+                <div class="row sub-title">Design de Logótipos</div>
+                <div class="row design-sub design-logotipos"></div>
+                <div class="row sub-title">Design de Mobiliário</div>
+                <div class="row design-sub design-mobiliario"></div>
             </div>
         </div>
     </section>
@@ -126,11 +128,22 @@
     $.getJSON('json/portfolioglobal.json',function(data){
         projects = [];
         $(data.portfolioglobal).each(function(index, value){
-            if(value.category === 'urbanismo'){
+            console.log(value.category);
+            if(value.category === 'design'){
                 projects.push(value);
                 $('#project-name').text(value.title);
                 $('#project-img').attr('src', value.image);
-                appendItem($('.porto'), cont, index, value.image, value.title);
+                if(value.subcategory.toLowerCase().indexOf('concursos') !== -1){
+                    appendItem($('.design-concursos'), cont, index, value.image, value.title);
+                }else if(value.subcategory.toLowerCase().indexOf('interiores') !== -1){
+                    appendItem($('.design-interiores'), cont, index, value.image, value.title);
+                }else if(value.subcategory.toLowerCase().indexOf('logotipos') !== -1){
+                    appendItem($('.design-logotipos'), cont, index, value.image, value.title);
+                }else if(value.subcategory.toLowerCase().indexOf('mobiliario') !== -1){
+                    appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
+                }
+                
+                //appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
                 cont++;
             }
         });
@@ -146,9 +159,7 @@
                 +'</div>'
                 + '<div class="image" style="background-image: url(' + image + ')"></div>'
             +'</a>'
-            +'<div class="portfolio-caption">'
-                +'<h4>'+title+'</h4>'  
-            +'</div>'
+            +'<div class="portfolio-caption">' + title + '</div>'
         +'</div>');
     }
     

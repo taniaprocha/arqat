@@ -12,12 +12,10 @@
 <!-- CSS =========================================================================== -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 <!-- FONTS =========================================================================== -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
     
-    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
@@ -44,7 +42,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="atelier.html">APRESENTAÇÃO</a>
+                        <a class="page-scroll" href="apresentacao.html">APRESENTAÇÃO</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="servicos.html">SERVIÇOS</a>
@@ -52,9 +50,9 @@
                     <li>
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROJECTOS</a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolioArquitectura.html">Arquitectura</a></li>
-                            <li><a href="portfolioDesign.html">Design</a></li>
-                            <li><a href="portfolioUrbanismo.html">Urbanismo</a></li>
+                            <li><a href="arquitectura.html">Arquitectura</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="urbanismo.html">Urbanismo</a></li>
                         </ul>
                     </li>
                     <li>
@@ -73,28 +71,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Arquitectura</h2>
+                    <h2 class="section-heading">Urbanismo</h2>
                     <hr style="height: 5px; border: 0px solid #D6D6D6; border-top-width: 1px;" />
                    <!-- <h3 class="section-subheading text-muted">Jornadas da computacao grafica e multimedia</h3>-->
                 </div>
             </div>
-            <div class="row arquitectura">
-                <div class="row sub-title">Arquitectura Comercial</div>
-                <div class="row arquitectura-sub arquitectura-comercial"></div>
-                <div class="row sub-title">Arquitectura Concursos</div>
-                <div class="row arquitectura-sub arquitectura-concursos"></div>
-                <div class="row sub-title">Arquitectura Habitacional</div>
-                <div class="row arquitectura-sub arquitectura-habitacional"></div>
+            <div class="row urbanismo">
+                <div class="row sub-title">Urbanismo</div>
+                <div class="porto">
+                    
+                </div>
             </div>
         </div>
     </section>
 
  
-    <!-- FOOTER =========================================================================== -->
-    <footer class="footer">
-        <div>ANDRÉ TERLEIRA © 2017 | ARQUITETURA E CONSTRUÇÃO</div>
-    </footer>
-    <!-- MODAIS =========================================================================== -->
+<!-- FOOTER =========================================================================== -->
+<footer class="footer">
+    <div>ANDRÉ TERLEIRA © 2017 | ARQUITETURA E CONSTRUÇÃO</div>
+</footer>
+<!-- MODAIS =========================================================================== -->
     <div class="portfolio-modal modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -122,28 +118,20 @@
  <script src="js/main.js"></script>
  <script src="js/jquery-3.1.0.min.js"></script>
 
-    <script>
+<script>
     var projects=[];
     var cont = 0;
     $.getJSON('json/portfolioglobal.json',function(data){
         projects = [];
         $(data.portfolioglobal).each(function(index, value){
-            if(value.category === 'arquitectura'){
+            if(value.category === 'urbanismo'){
                 projects.push(value);
                 $('#project-name').text(value.title);
                 $('#project-img').attr('src', value.image);
-                if(value.subcategory.toLowerCase().indexOf('comercial') !== -1){
-                    appendItem($('.arquitectura-comercial'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('concursos') !== -1){
-                    appendItem($('.arquitectura-concursos'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('habitacional') !== -1){
-                    appendItem($('.arquitectura-habitacional'), cont, index, value.image, value.title);
-                }
-                
+                appendItem($('.porto'), cont, index, value.image, value.title);
                 cont++;
             }
         });
-        //console.log(projects);
     });
 
     function appendItem(object, cont, index, image, title){
@@ -156,7 +144,9 @@
                 +'</div>'
                 + '<div class="image" style="background-image: url(' + image + ')"></div>'
             +'</a>'
-            +'<div class="portfolio-caption">' + title + '</div>'
+            +'<div class="portfolio-caption">'
+                +'<h4>'+title+'</h4>'  
+            +'</div>'
         +'</div>');
     }
     
@@ -172,6 +162,5 @@
             $('#project-location').css('opacity', 0);
         }
     }
-
-    </script>
+</script>
 </html>
