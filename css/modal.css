@@ -85,22 +85,6 @@
     margin-bottom: 10px;
 }
 
-
-.thumbnails{
-    margin-top: 10px;
-}
-
-.thumbnails img {
-    height: 50px;
-    margin-left: 10px;
-    border: 1px solid black;
-}
-
-.thumbnails img:hover {
-    border: 1px solid white;
-    cursor:pointer;
-}
-
 .preview img {
     height: 400px;
     max-width: 96%;
@@ -113,11 +97,11 @@
 .thumbnails img {
     height: 50px;
     margin-left: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .thumbnails img:hover {
-    border: 1px solid white;
+    border: 1px solid rgba(0, 0, 0, .2);
     cursor:pointer;
 }
 
