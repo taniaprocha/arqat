@@ -48,7 +48,7 @@ section h2.section-heading{
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 0;
-    width: 280px;
+    width: 270px;
     float: left;
     height: 250px;
 }
@@ -57,7 +57,7 @@ section h2.section-heading{
 {
     display:block;
     position:relative;
-    width:280px;
+    width:270px;
     height: 200px;
     overflow: hidden;
     margin:0 auto;
