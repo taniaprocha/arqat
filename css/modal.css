@@ -66,11 +66,23 @@
 
 
 .portfolio-modal .modal-content .right{
-   
+   padding-left: 2%;
 }
 
-.portfolio-modal .project-name{
+.portfolio-modal .modal-content .left{
+    padding-bottom: 5%;
+}
+
+/*.portfolio-modal .modal-content .left .gallery{
     text-align: left;
+}
+
+.portfolio-modal .modal-content .left .gallery .preview{
+    text-align: left;
+}*/
+
+.portfolio-modal .project-name{
+    text-align: center;
 }
 
 .portfolio-modal .project-description{
@@ -106,7 +118,7 @@
 }
 
 .preview .image {
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     background-size: cover;
     background-position: center center;
