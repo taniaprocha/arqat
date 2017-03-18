@@ -18,7 +18,7 @@
     },
     {
      "title": "Café Aveiro",
-     "image": "img/Arquitectura/Comercial/2/1.3DView1.jpg",
+     "image": "img/Arquitectura/Comercial/2/1.jpg",
      "description": "Projecto para reabilitação de espaço para Establecimento Comercial - Café/Padaria em Aveiro.",
      "category": "arquitectura",
      "date": "Agosto 2016",
@@ -34,15 +34,16 @@
     },
     {
      "title": "Salão de Beleza Labruge",
-     "image": "img/Arquitectura/Comercial/3/1.Vista3D1.jpg",
+     "image": "img/Arquitectura/Comercial/3/1.jpg",
      "description": "Projecto para reabilitação de espaço de Salão de Beleza Labruge, Vila do Conde. Redecoração de Mobiliário, Revestimentos e reorganização dos espaços interiores.",
      "category": "arquitectura",
      "date": "Agosto 2016",
      "images": [
-        "img/Arquitectura/Comercial/3/1.Vista3D1.jpg", "img/Arquitectura/Comercial/3/1.jpg",
+        "img/Arquitectura/Comercial/3/1.jpg",
          "img/Arquitectura/Comercial/3/2.jpg",
          "img/Arquitectura/Comercial/3/3.jpg",
-         "img/Arquitectura/Comercial/3/4.jpg"
+         "img/Arquitectura/Comercial/3/4.jpg",
+         "img/Arquitectura/Comercial/3/5.jpg"
      ],
      "subcategory": "Arquitectura Comercial",
      "location": "Labruge, Vila do Conde"
@@ -113,7 +114,7 @@
     },
     {
      "title": "Extension between the Alvar Aalto Museum and Museum of Central Finland",
-     "image": "img/Arquitectura/Concursos/1/1.int.jpg",
+     "image": "img/Arquitectura/Concursos/1/1.jpg",
      "description": "Layoutfour Collaboration<br/>Conceptualizing<br/>- Looking for its own identity, the proposal is based on the general framework of the surroundings and their own importance. There is a double intentionality, in the insertion of the element, between the two museums and its historical and cultural importance, inherent in their origin and functionality in and for the country.<br/>- Starting from the irregular nature of land analysis, the intervention in this plot of land, with residual characteristics, while following the modernism present in buildings of reference, the proposal is presented as a  connecting point, while taking formal rupture that requires composing assumptions for the projection of the focus in space.<br/>- The conceptual autonomy proposal intend to connect two buildings through a dichotomy directions where it focuses on the essence, not only a connecting point or a mere extension, but an own identity creation of an area endowed with an important and formal independence.<br/>- The architectural language that the proposal has, focuses on the interconnection between the indoor and outdoor space. Transparency and intense relationship with the environment can create strong communication links between the built object and the space.<br/><br/>ARCHITECTS: André Terleira - Architect, Artur Dionísio - Architect, Hélder Rodrigues - Architect, Paulo Gomes - Architect",
      "category": "arquitectura",
      "date": "Março 2016",
@@ -129,7 +130,7 @@
     },
     {
      "title": "Lagoa de Quitundo Resort",
-     "image": "img/Arquitectura/Concursos/2/1.EdificioPrincipal.jpg",
+     "image": "img/Arquitectura/Concursos/2/1.jpg",
      "description": "Layoutfour Collaboration<br/>Architects: André Terleira, Hélder Rodrigues, Artur Dionísio e Paulo Gomes<br/>Studio: Layoutfour<br/>Name of the project: Lagoa de Quitundo Resort in Angola<br/>The Project Lagoa de Quitundo Resort  in Angola is the Layoutfour response to a design and architecture competition promoted by Archiproposals and Sketch in the framework of a Project for a resort / center of sports training, in order to generate new architectural ideas as it is proposed to boost the development of local tourism.<br/>The project seeks a simple and contemporary architectural language with the least impact possible on the ground, responding to functional multilicity of the Resort and allowing the independent operation of all its components.<br/>The materials used in the buildings were based on the use of local and  sustainable materials, for their character and  for its natural beauty. The concrete for the simplicity and speed of construction.<br/>The entire complex is composed of: Center of sports training, hotel and housing units.<br/>The project was awarded with 3rd place (2nd honorable mention) in the competition, in the 27th of march 2015.",
      "category": "arquitectura",
      "date": "Fevereiro 2016",
@@ -145,7 +146,7 @@
     },
     {
      "title": "Symbolic World Cup Structure",
-     "image": "img/Arquitectura/Concursos/3/1.Lapa-03_C.jpg",
+     "image": "img/Arquitectura/Concursos/3/1.jpg",
      "description": "Colaboração Layoufour: Arq. André Terleira, Arq. Artur Dionisio, Arq. Héºder Rodrigues<br/>Partindo do reconhecimento das vias de circulação de acesso à praça dos arcos da Lapa, assim como as dinâmicas de circulação que a definem, foi procurado manter a identidade do espaço e sua herança, embora criando novas dinâmicas, partido das existentes. A incontestável importância da presença da monumental arcada marca definitivamente o desenvolvimento de toda a proposta e sua organização funcional, pretendendo valorizar o património existente.<br/>O desenho da praça assenta na imensa arcada mas também convexa num espaço marcado no piso de forma circular o que originará o desenvolvimento de todo o projeto – arcada/circulações/organização.<br/>Apresenta-se como principal objetivo a valorização do espaço procurou-se uma perfeita integração das pessoas no lugar e nesta relação de proximidade perfeitamente orgânica.<br/>Denotou-se o prolongamento das vias de circulação, atravessando toda a área de intervenção, sendo estas as linhas orientadoras e ponto de partida para o projeto apresentado.<br/>Como uma pedra que é esculpida pela água o projeto foi sendo esculpido organicamente pelos elementos existentes numa simbiose que define toda a forma.<br/>A permeabilidade visual do projeto apresentado centra-se na vontade de criar uma forte ligação entre todos os elementos, caracterizando o edifício como orgânico e dinâmico. Apresenta-se cinco volumes cilíndricos unidos entre si apenas por uma “capa” ou cobertura que se desenvolve livremente pelo correr do espaço. A transparência conseguida através da mutação dos volumes oferece uma possibilidade de comunicação visual que pode atravessar todo o parque e o próprio edifício, sempre com a monumental arcada como pano de fundo.",
      "category": "arquitectura",
      "date": "Julho 2013",
@@ -497,7 +498,7 @@
     },
     {
      "title": "Reabilitação de IS Bindo",
-     "image": "img/Design/interiores/2/1.3DView4.jpg",
+     "image": "img/Design/interiores/2/1.jpg",
      "description": "Projecto de reabilitação e Design de Interiores de Instalação Sanitária em Seixas, Caminha distrito de Viana do Castelo. Revestimentos e Loiças sanitárias",
      "category": "design",
      "date": "Dezembro 2013",
@@ -513,7 +514,7 @@
     },
     {
      "title": "Reabilitação de Cozinha Bindo",
-     "image": "img/Design/interiores/3/1.CozinhaBindo.jpg",
+     "image": "img/Design/interiores/3/1.jpg",
      "description": "Projecto de reabilitação e Design de Interiores de Cozinha de habitação situada em Seixas, Caminha distrito de Viana do Castelo. Revestimentos e Mobiliário",
      "category": "design",
      "date": "Junho 2012",
@@ -601,7 +602,7 @@
     },
     {
      "title": "Closet Cube",
-     "image": "img/Design/mobiliario/1/1.ClosetCube.jpg",
+     "image": "img/Design/mobiliario/1/1.jpg",
      "description": "Design de Mobiliário de arrumação para roupa com espaços diferenciados para todas as categorias: Vestidos/fatos, Calças/calções, Roupa Interior, sapatos e acessórios.",
      "category": "design",
      "date": "Setembro 2016",
@@ -617,7 +618,7 @@
     },
     {
      "title": "Health Club São Jõao",
-     "image": "img/Design/mobiliario/2/1.3DView1.jpg",
+     "image": "img/Design/mobiliario/2/1.jpg",
      "description": "Design de Mobiliário de Receção para Health Club em São Jõao da Madeira. MDF Lacado",
      "category": "design",
      "date": "Agosto 2016",
@@ -649,7 +650,7 @@
     },
     {
      "title": "Cubo Lar - Perfil T",
-     "image": "img/Design/mobiliario/4/1.3DView4.jpg",
+     "image": "img/Design/mobiliario/4/1.jpg",
      "description": "Collaboraçao com Perfil T Arquitectos<br/>Design by Perfil T arquitetura<br/>3D model and Rendering by André Terleira Architect",
      "category": "design",
      "date": "Novembro 2015",
