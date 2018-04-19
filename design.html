@@ -4,10 +4,10 @@
 <head>
 <!-- META TAGS =========================================================================== -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Projeto</title>
-	<meta name="author" content="" />
+	<title>Design</title>
+	<meta name="author" content="Tânia Rocha e Rui Rocha" />
     <meta name="description" content="" />
-    <meta name="keywords" content="" />
+		<meta name="keywords" content="design, design contests, contests, design de interiores, interior design, logotype, furniture, mobiliario, logotipos" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- CSS =========================================================================== -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 <!-- FONTS =========================================================================== -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
 <!-- FOOTER ==========================================================================-->
-    
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
@@ -89,7 +89,7 @@
         </div>
     </section>
 
- 
+
 <!-- FOOTER =========================================================================== -->
 <footer class="footer">
     <div>ANDRÉ TERLEIRA © 2017 | ARQUITETURA E CONSTRUÇÃO</div>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right">
-                    <h2 class="project-name" id='project-name'></h2>                        
+                    <h2 class="project-name" id='project-name'></h2>
                     <p class="project-description" id='project-description'></p>
                     <ul class="list-inline">
                         <div class="project-item" id='project-location'><strong>Localização:</strong><span class=""></span></div>
@@ -146,7 +146,7 @@
                 }else if(value.subcategory.toLowerCase().indexOf('mobiliario') !== -1){
                     appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
                 }
-                
+
                 //appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
                 cont++;
             }
@@ -166,7 +166,7 @@
             +'<div class="portfolio-caption">' + title + '</div>'
         +'</div>');
     }
-    
+
     function openModal(index){
         $('#project-name').text(projects[index].title);
         $('.thumbnails').empty();
@@ -184,7 +184,7 @@
         }else{
             $('#project-location').css('display', 'none');
         }
-        
+
     }
     function showPreview(index, image){
         $('#img').css('background-image', 'url(' + projects[index].images[image] + ')');
