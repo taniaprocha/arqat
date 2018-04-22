@@ -55,30 +55,7 @@ body
 	font-family: 'Roboto', sans-serif;
 	text-transform:uppercase;
 	font-weight:700
-}/*
-.btn-primary:hover,.btn-primary.focus,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary
-{
-	color:#333;
-	background-color:#fff;
-	border-color:rgb(237, 67, 67);
 }
-.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary
-{
-		color:#333;
-	background-color:#fff;
-	border-color:rgb(237, 67, 67);
-
-}
-.btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active
-{
-	background-color:#fed136;
-	border-color:#fed136
-}
-.btn-primary .badge
-{
-	color:#fed136;
-	background-color:#fff
-}*/
 .btn-xl
 {
 	color:rgba(51 , 51, 51, 0.75);
@@ -97,21 +74,7 @@ body
 	color:rgba(84,87,102,1);
 	background-color:#fff;
 	border-color:#fff
-}/*
-.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
-{
-	background-image:none
 }
-.btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active
-{
-	background-color:#fed136;
-	border-color:#fed136
-}
-.btn-xl .badge
-{
-	color:#fed136;
-	background-color:#fff
-}*/
 .navbar-default
 {
 	border-color:#333 !important;
@@ -243,7 +206,7 @@ body
 {
 	padding-top:100px;
 	margin-bottom: 50px;
-	
+
 }
 	header .intro-text .intro-lead-in
 {
@@ -345,17 +308,8 @@ body
 
 }
 
-/*.carousel-header{
-    display: block;
-    max-width: 200px;
-    height: 300px;
-}*/
 .span{
 	margin-top: 50px;
-}
-
-#contact a{
-color: #333
 }
 
 header
@@ -370,7 +324,7 @@ color: #fff;
 padding-bottom: 70px;
 }
 
-.bg-light-gray{  
+.bg-light-gray{
 background-color:#efebe1
 }
 
