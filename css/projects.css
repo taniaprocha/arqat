@@ -8,7 +8,7 @@ header
     color: #fff;
 }
 
-.bg-light-gray{  
+.bg-light-gray{
     background-color:#efebe1
 }
 
@@ -71,12 +71,8 @@ section h2.section-heading{
     height: 100%;
     width: 100%;
     background-size: cover;
-}
-
-#portfolio .portfolio-item .portfolio-link img{
-    height: 100%;
-    width: 100%;
-    object-fit: center;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover

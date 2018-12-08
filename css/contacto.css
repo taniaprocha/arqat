@@ -45,7 +45,7 @@ section h2.section-heading{
 }
 
 #contact{
-    padding-top: 150px !important;
+    padding-top: 100px !important;
 }
 
 .header {
@@ -127,9 +127,8 @@ section#contact .text-danger
 .map-container{
     display: inline-block;
     height: 400px;
-    width: 420px;
     vertical-align: top;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 
 .panel-container{
@@ -142,6 +141,7 @@ section#contact .text-danger
 .panel-container .title{
     font-weight: 700;
     font-size: 28px;
+    text-align: center;
 }
 
 .panel-container .panel-body{
@@ -156,6 +156,7 @@ section#contact .text-danger
 
 .panel-container .content{
     color: #4b4b4b;
+    margin-top: 25px;
 }
 
 .panel-container .content:not(:first-child){
