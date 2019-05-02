@@ -395,3 +395,40 @@ section h2.section-heading{
 		height: 50px;
   }
 }
+
+.colaboradores{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px;
+	padding-top: 50px;
+
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+
+}
+
+.path{
+	color: #333;
+}
+.path:hover{
+	color: #333;
+}
+
+.position{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.user{
+	width: 45px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.final{
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
