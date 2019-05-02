@@ -72,6 +72,7 @@ body
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 {
 	color:rgba(84,87,102,1);
+	color:#ed4343;
 	background-color:#fff;
 	border-color:#fff
 }
@@ -115,8 +116,9 @@ body
 	letter-spacing:1px;
 	color:#333
 }
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus
-{
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li .active{
 	color:#ed4343;
 	outline:0
 }
@@ -150,7 +152,7 @@ body
 }
 .navbar-default .navbar-nav>.active>a
 {
-	border-radius:3px
+	border-radius:3px;
 }
 .navbar-default.navbar-shrink
 {
@@ -171,8 +173,7 @@ body
 }
 
 }
-	header
-{
+header{
 	background-repeat:none;
 	background-attachment:scroll;
 	background-position:center center;
@@ -394,3 +395,43 @@ section h2.section-heading{
 		height: 50px;
   }
 }
+<<<<<<< HEAD
+=======
+
+.colaboradores{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px;
+	padding-top: 50px;
+
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+
+}
+
+.path{
+	color: #333;
+}
+.path:hover{
+	color: #333;
+}
+
+.position{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.user{
+	width: 45px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.final{
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+>>>>>>> contentful

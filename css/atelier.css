@@ -23,7 +23,7 @@
 color: #fff;
 }
 
-.bg-light-gray{  
+.bg-light-gray{
 background-color:#efebe1
 }
 
@@ -79,8 +79,9 @@ body{
 
 #portfolio .description{
 	font-size: 14px;
-	padding-left: 10px;
+	padding: 10px;
 	width: 95%;
+	margin-top: 40px;
 }
 
 #portfolio .imagem.presentation{
@@ -111,5 +112,5 @@ body{
 
 #portfolio .point i{
 	color: #ed4343;
-	margin-right: 10px; 
+	margin-right: 10px;
 }

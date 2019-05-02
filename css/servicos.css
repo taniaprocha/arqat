@@ -5,11 +5,11 @@ header
     }
 
     #skills{
-   
+
     color: #fff;
     }
 
-    .bg-light-gray{  
+    .bg-light-gray{
     background-color:#efebe1
     }
 
@@ -60,18 +60,22 @@ header
 	font-size: 14px !important;
 }
 
-.serv{
-	padding-top: 30px;
-}
-
 .ba{
 
 	padding-top: 20px
 }
 
 .row .serv{
+  padding-top: 30px;
+
 	width: 90%;
 	margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row .free{
+  text-align: center;
 }
 
 .row .serv .block{

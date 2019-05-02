@@ -30,9 +30,8 @@
 
 .portfolio-modal .close-modal button{
     background-color: white;
-    font-size: 15px;
+    font-size: 18px;
     color: #333;
-    border-color: #333;
 }
 
 .portfolio-modal .close-modal button:hover,
@@ -41,7 +40,8 @@
     background-color: white;
     color: #333;
     color: #333;
-    border-color: #333;
+    border-radius: 50%;
+    border: solid 1px rgba(51, 51, 51, 0.3);
 }
 
 .portfolio-modal{
@@ -100,6 +100,7 @@
 
 .thumbnails img {
     height: 50px;
+
     margin-left: 10px;
     border: 1px solid white;
     -moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
@@ -118,7 +119,30 @@
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    -moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+    /*-moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
     -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
-    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);*/
+}
+
+.portfolio-modal .seemore{
+  margin-top: 25px;
+}
+
+.portfolio-modal .seemore a{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold ;
+  outline: none;
+  text-decoration: none;
+}
+
+.portfolio-modal .seemore a:hover,
+.portfolio-modal .seemore a:focus,
+.portfolio-modal .seemore a:active{
+  border: 1px solid rgba(51, 122, 183, 0.3);
+  border-radius: 5px;
+}
+
+.portfolio-modal .seemore a i{
+  font-size: 12px;
+  margin-left: 5px;
 }
