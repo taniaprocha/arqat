@@ -5,22 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Design</title>
 	<meta name="author" content="Tânia Rocha e Rui Rocha" />
-<<<<<<< HEAD
-    <meta name="description" content="" />
-		<meta name="keywords" content="design, design contests, contests, design de interiores, interior design, logotype, furniture, mobiliario, logotipos" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<!-- CSS =========================================================================== -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-<!-- FONTS =========================================================================== -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
-<!-- FOOTER ==========================================================================-->
-
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/projects.css">
-    <link rel="stylesheet" type="text/css" href="css/modal.css">
-    <link rel="stylesheet" href="css/footer.css">
-=======
   <meta name="description" content="" />
 	<meta name="keywords" content="design, design contests, contests, design de interiores, interior design, logotype, furniture, mobiliario, logotipos" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -34,7 +18,6 @@
   <link rel="stylesheet" type="text/css" href="css/projects.css">
   <link rel="stylesheet" type="text/css" href="css/modal.css">
   <link rel="stylesheet" href="css/footer.css">
->>>>>>> contentful
 </head>
 
 <body  id="page-top">
@@ -61,6 +44,7 @@
 													<li><a href="arquitecture.html">Arquitectura</a></li>
 													<li><a href="design.html">Design</a></li>
 													<li><a href="urbanism.html">Urbanismo</a></li>
+													<li><a href="work.html">Obras</a></li>
 											</ul>
 									</li>
 									<li>
@@ -145,74 +129,6 @@
 <!-- JAVASCRIPT =========================================================================== -->
  <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-
-<script>
-    var projects=[];
-    var cont = 0;
-    $.getJSON('json/portfolioglobal.json',function(data){
-        projects = [];
-        $(data.portfolioglobal).each(function(index, value){
-            console.log(value.category);
-            if(value.category === 'design'){
-                projects.push(value);
-                $('#project-name').text(value.title);
-                $('#project-img').attr('src', value.image);
-                if(value.subcategory.toLowerCase().indexOf('concursos') !== -1){
-                    appendItem($('.design-concursos'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('interiores') !== -1){
-                    appendItem($('.design-interiores'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('logotipos') !== -1){
-                    appendItem($('.design-logotipos'), cont, index, value.image, value.title);
-                }else if(value.subcategory.toLowerCase().indexOf('mobiliario') !== -1){
-                    appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
-                }
-
-                //appendItem($('.design-mobiliario'), cont, index, value.image, value.title);
-                cont++;
-            }
-        });
-    });
-
-    function appendItem(object, cont, index, image, title){
-         object.append('<div class="portfolio-item" id="item-'+index+'">'
-            +'<a href="#portfolioModal" onclick="javascript:openModal('+cont+');" class="portfolio-link" data-toggle="modal">'
-                +'<div class="portfolio-hover">'
-                    +'<div class="portfolio-hover-content">'
-                    +  '<div class="portfolio-plus">ver <i class="fa fa-plus"></i></div>'
-                    +'</div>'
-                +'</div>'
-                + '<div class="image" style="background-image: url(' + image + ')"></div>'
-            +'</a>'
-            +'<div class="portfolio-caption">' + title + '</div>'
-        +'</div>');
-    }
-
-    function openModal(index){
-        $('#project-name').text(projects[index].title);
-        $('.thumbnails').empty();
-        $('#img').css('background-image', 'url(' + projects[index].images[0] + ')');
-        if(projects[index].images.length > 1){
-            for(var i=0; i < projects[index].images.length; i++){
-                $('.thumbnails').append('<img onmouseover="javascript:showPreview(' + index + ',' + i + ');" id="img'+i+'" src="'+projects[index].images[i]+'" alt=""/>');
-            }
-        }
-        $('#project-description').html(projects[index].description);
-        $('#project-date span').text(' ' + projects[index].date);
-        if(projects[index].location !== undefined && projects[index].location !== ''){
-            $('#project-location span').text(' ' + projects[index].location);
-            $('#project-location').css('display', 'block');
-        }else{
-            $('#project-location').css('display', 'none');
-        }
-
-    }
-    function showPreview(index, image){
-        $('#img').css('background-image', 'url(' + projects[index].images[image] + ')');
-    }
-</script>
-=======
  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
  <script src="js/contentful.js"></script>
->>>>>>> contentful
 </html>

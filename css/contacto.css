@@ -162,13 +162,6 @@ section#contact .text-danger
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
-.panel-container .content:not(:first-child){
-  margin-top: 10px;
-}
-
-=======
->>>>>>> contentful
 .panel-container .content .img,
 .panel-container .address .img{
   width: 20px;

@@ -47,6 +47,8 @@ $(function() {
           projects.push(data);
         }else if(category === 'urbanismo' && window.location.pathname.indexOf('urbanism') !== -1){
           projects.push(data);
+        }else if(category === 'obras' && window.location.pathname.indexOf('work') !== -1){
+          projects.push(data);
         }else{
 
         }
@@ -60,21 +62,21 @@ $(function() {
         if(image && image.indexOf('https:') === -1) image = image.replace("http:", "https:");
         $('#project-img').attr('src', image);
 
-        if(value.subcategory.toLowerCase() === 'arquitectura-comercial'){
+        if(value.subcategory && value.subcategory.toLowerCase() === 'arquitectura-comercial'){
             appendItem($('.arquitectura-comercial'), index, image, value.title);
-        }else if(value.subcategory.toLowerCase() === 'arquitectura-concursos'){
+        }else if(value.subcategory && value.subcategory.toLowerCase() === 'arquitectura-concursos'){
             appendItem($('.arquitectura-concursos'), index, image, value.title);
-        }else if(value.subcategory.toLowerCase() === 'arquitectura-habitacional'){
+        }else if(value.subcategory && value.subcategory.toLowerCase() === 'arquitectura-habitacional'){
             appendItem($('.arquitectura-habitacional'), index, image, value.title);
         }
 
-        if(value.subcategory.toLowerCase() === 'concursos-design'){
+        if(value.subcategory && value.subcategory.toLowerCase() === 'concursos-design'){
             appendItem($('.design-concursos'), index, image, value.title);
-        }else if(value.subcategory.toLowerCase() === 'interiores'){
+        }else if(value.subcategory && value.subcategory.toLowerCase() === 'interiores'){
             appendItem($('.design-interiores'), index, image, value.title);
-        }else if(value.subcategory.toLowerCase() === 'logotipos'){
+        }else if(value.subcategory && value.subcategory.toLowerCase() === 'logotipos'){
             appendItem($('.design-logotipos'), index, image, value.title);
-        }else if(value.subcategory.toLowerCase() === 'mobiliario'){
+        }else if(value.subcategory && value.subcategory.toLowerCase() === 'mobiliario'){
             appendItem($('.design-mobiliario'), index, image, value.title);
         }
 
@@ -83,6 +85,14 @@ $(function() {
             appendItem($('.porto'), index, image, value.title);
           }else{
             appendItem($('.porto'), index, '', value.title);
+          }
+        }
+
+        if(value.category.toLowerCase() === 'obras'){
+          if(image){
+            appendItem($('.work-sub'), index, image, value.title);
+          }else{
+            appendItem($('.work-sub'), index, '', value.title);
           }
         }
       });
