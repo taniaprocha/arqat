@@ -78,10 +78,10 @@ body{
 }
 
 #portfolio .description{
-	font-size: 14px;
+	font-size: 16px;
 	padding: 10px;
 	width: 95%;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 #portfolio .imagem.presentation{
